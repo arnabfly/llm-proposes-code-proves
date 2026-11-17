@@ -1,0 +1,18 @@
+\section{Results}\label{sec:results}
+\subsection{Main results}
+\ours{} outperforms ResNet-18 on both datasets (Table~\ref{tab:main}).
+\begin{table}[t]
+\centering
+\caption{Accuracy (\%) over 3 seeds. Best in \textbf{bold}.}
+\label{tab:main}
+\begin{tabular}{lcc}
+\toprule
+ & \multicolumn{2}{c}{Accuracy (\%)} \\
+\cmidrule(lr){2-3}
+Method & CIFAR-10 & CIFAR-100 \\
+\midrule
+ResNet-18 & 84.1 $\pm$ 0.3 & 60.2$_{\pm 0.4}$ \\
+\ours & \textbf{85.3} $\pm$ 0.2 & \underline{61.0} (+0.8) \\
+\bottomrule
+\end{tabular}
+\end{table}

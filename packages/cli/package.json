@@ -1,0 +1,20 @@
+{
+  "name": "@tygig/harness",
+  "version": "0.1.0",
+  "description": "The tygig command: an agent harness where every action is permitted and proven.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "tygig": "bin/tygig.js"
+  },
+  "dependencies": {
+    "@tygig/agent": "0.1.0",
+    "@tygig/ai": "0.1.0",
+    "@tygig/auth": "0.1.0",
+    "@tygig/core": "0.1.0",
+    "@tygig/ui": "0.1.0",
+    "ink": "^8.0.0",
+    "react": "^19.3.1",
+    "tsx": "^4.23.0"
+  }
+}

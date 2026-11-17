@@ -1,0 +1,73 @@
+{
+  "paper1": {
+    "id": "paper1",
+    "src": "papers/cpil",
+    "sha256": "2c5039283c126f79b3a9c0512dca06df7406fcae01da03fc959db252878f2eaf",
+    "arxiv": "2611.16264v1",
+    "dev": true,
+    "registered": "2026-11-16T22:59:05.841Z"
+  },
+  "hipfuse": {
+    "id": "hipfuse",
+    "src": "papers/hipfuse",
+    "sha256": "8dc6565c5a6b55b9bdf6a2437baf48e88372f201b35a0ab77f38c97323f578b1",
+    "arxiv": "2611.14025v1",
+    "registered": "2026-11-16T23:59:08.037Z"
+  },
+  "peca": {
+    "id": "peca",
+    "src": "papers/peca",
+    "sha256": "d7fd4a1b9d64335f1eb1b14466dc201b4a267bc5e767ffdca7dbd06e980e135c",
+    "arxiv": "2611.17128v1",
+    "registered": "2026-11-16T23:59:26.103Z"
+  },
+  "olifant": {
+    "id": "olifant",
+    "src": "papers/olifant",
+    "sha256": "621ad43e8d1665b52b23bdba690b75f92597b7830c4888ee4c0278cde4678fdb",
+    "arxiv": "2611.16714v1",
+    "registered": "2026-11-16T23:59:36.926Z"
+  },
+  "isharabart": {
+    "id": "isharabart",
+    "src": "papers/isharabart",
+    "sha256": "7887b1b4de51de4362b1abc8b04ee05efa57916c413d4e7b7817b2b7bc49b37a",
+    "arxiv": "2611.16359v1",
+    "registered": "2026-11-16T23:59:56.482Z"
+  },
+  "fikiria": {
+    "id": "fikiria",
+    "src": "papers/fikiria",
+    "sha256": "dfae64af89fc01113bf271e001463daa69f10d8163f5927bc302d8cfbfc20604",
+    "arxiv": "2611.16104v1",
+    "registered": "2026-11-17T00:00:20.253Z"
+  },
+  "davinci-prover": {
+    "id": "davinci-prover",
+    "src": "papers/davinci-prover",
+    "sha256": "63c1165e6071fb9788da0082669ce1ae269d3f8f202415c0ac1dbb445c684479",
+    "arxiv": "2611.16433v1",
+    "registered": "2026-11-17T00:00:47.740Z"
+  },
+  "mape": {
+    "id": "mape",
+    "src": "papers/mape",
+    "sha256": "9acf464c225f1db7023be549cdbfcddf811d37849f8f9d26941f8dd2b639de43",
+    "arxiv": "2611.17068v1",
+    "registered": "2026-11-17T00:01:04.946Z"
+  },
+  "c2-routing": {
+    "id": "c2-routing",
+    "src": "papers/c2-routing",
+    "sha256": "14c8c42e578e530e5c61dc526ce6d16c981d2400c114bd3302e8a786a79b5e6a",
+    "arxiv": "2611.14469v1",
+    "registered": "2026-11-17T00:01:34.040Z"
+  },
+  "divr": {
+    "id": "divr",
+    "src": "papers/divr",
+    "sha256": "be4f258dda2b17c63bef2a7529dab33c137744281a53d0d6ea9e3b6cf60bcdc9",
+    "arxiv": "2611.17320v1",
+    "registered": "2026-11-17T00:01:48.174Z"
+  }
+}

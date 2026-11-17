@@ -1,0 +1,17 @@
+{
+  "name": "@tygig/ui",
+  "version": "0.1.0",
+  "description": "Terminal building blocks for Tygig, built with Ink.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@tygig/core": "0.1.0",
+    "ink": "^8.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.3.1"
+  }
+}

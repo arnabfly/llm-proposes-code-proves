@@ -1,0 +1,2 @@
+# Keep the strict prompt byte for byte on every system, so its SHA-256 hash (saved with every strict run) stays the same
+evals/prompts/strict.md -text

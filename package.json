@@ -1,0 +1,30 @@
+{
+  "name": "tygig-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tygig: an agent harness where every action is permitted and proven. Base harness.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "tygig-bench": "evals/bin/tygig-bench.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "tsx packages/cli/src/main.tsx",
+    "login": "tsx packages/cli/src/main.tsx login",
+    "logout": "tsx packages/cli/src/main.tsx logout",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test test/ai.test.ts test/agent.test.ts test/auth.test.ts test/cli.test.ts test/review.test.ts test/evals.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.3.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.0"
+  }
+}

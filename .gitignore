@@ -1,0 +1,31 @@
+# Installed packages: recreated by `npm install`, never committed
+node_modules/
+
+# Build output (not used yet, but reserved)
+dist/
+
+# Secrets and local settings, in case anyone puts them here by mistake
+.env
+.env.*
+credentials.json
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Outputs that tygig writes next to a paper (the tests write them into test/fixtures/paper)
+claim-map.json
+claim-map.md
+
+# tygig's own data folder (keys, sign-ins, saved conversations), in case it is ever copied here
+.tygig/
+
+# Benchmark work: never commit paper sources, planted versions or session logs.
+# They contain paper text that we may not redistribute. Shared results go in hackathon/results/.
+benchmark/
+papers/
+versions/
+results-*/
+*.jsonl

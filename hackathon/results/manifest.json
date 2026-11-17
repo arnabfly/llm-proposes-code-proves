@@ -1,0 +1,1955 @@
+[
+  {
+    "versionId": "c2-routing__S10__clean",
+    "paperId": "c2-routing",
+    "targetId": "S10",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "c2-routing__S10__F1",
+    "paperId": "c2-routing",
+    "targetId": "S10",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+    "changes": [
+      {
+        "file": "table\\detailed_results.tex",
+        "old": "76.51",
+        "new": "65.03"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T10.r5.c4",
+    "cells": [
+      {
+        "id": "T10.r5.c4",
+        "old": "76.51",
+        "new": "65.03"
+      }
+    ]
+  },
+  {
+    "versionId": "c2-routing__S10__F2",
+    "paperId": "c2-routing",
+    "targetId": "S10",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 42.01% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "36.53",
+        "new": "42.01"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "c2-routing__S10__F3",
+    "paperId": "c2-routing",
+    "targetId": "S10",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "c2-routing__S10__F4",
+    "paperId": "c2-routing",
+    "targetId": "S10",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+    "changes": [
+      {
+        "file": "table\\detailed_results.tex",
+        "old": "76.51",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T10.r5.c4",
+    "cells": [
+      {
+        "id": "T10.r5.c4",
+        "old": "76.51",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "c2-routing__S52__clean",
+    "paperId": "c2-routing",
+    "targetId": "S52",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "c2-routing__S52__F1",
+    "paperId": "c2-routing",
+    "targetId": "S52",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "c2-routing__S52__F2",
+    "paperId": "c2-routing",
+    "targetId": "S52",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Experiments on three VLMs and 21 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "18",
+        "new": "21"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "c2-routing__S52__F3",
+    "paperId": "c2-routing",
+    "targetId": "S52",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "c2-routing__S52__F4",
+    "paperId": "c2-routing",
+    "targetId": "S52",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "c2-routing__S247__clean",
+    "paperId": "c2-routing",
+    "targetId": "S247",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "c2-routing__S247__F1",
+    "paperId": "c2-routing",
+    "targetId": "S247",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T6.r17.c5 has no plain number to change"
+  },
+  {
+    "versionId": "c2-routing__S247__F2",
+    "paperId": "c2-routing",
+    "targetId": "S247",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "With original inputs already capped at 1,178 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "1,024",
+        "new": "1,178"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "c2-routing__S247__F3",
+    "paperId": "c2-routing",
+    "targetId": "S247",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "c2-routing__S247__F4",
+    "paperId": "c2-routing",
+    "targetId": "S247",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T6.r17.c5 has no plain number to remove"
+  },
+  {
+    "versionId": "davinci-prover__S6__clean",
+    "paperId": "davinci-prover",
+    "targetId": "S6",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "davinci-prover__S6__F1",
+    "paperId": "davinci-prover",
+    "targetId": "S6",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "davinci-prover__S6__F2",
+    "paperId": "davinci-prover",
+    "targetId": "S6",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Our mid-training recipe yields an average improvement of 15.8 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+    "changes": [
+      {
+        "file": "body\\abstract.tex",
+        "old": "13.7",
+        "new": "15.8"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "davinci-prover__S6__F3",
+    "paperId": "davinci-prover",
+    "targetId": "S6",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "davinci-prover__S6__F4",
+    "paperId": "davinci-prover",
+    "targetId": "S6",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "davinci-prover__S35__clean",
+    "paperId": "davinci-prover",
+    "targetId": "S35",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "davinci-prover__S35__F1",
+    "paperId": "davinci-prover",
+    "targetId": "S35",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "davinci-prover__S35__F2",
+    "paperId": "davinci-prover",
+    "targetId": "S35",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Our mid-training improves Qwen3-8B pass@2 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+    "changes": [
+      {
+        "file": "body\\introduction.tex",
+        "old": "1",
+        "new": "2"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "davinci-prover__S35__F3",
+    "paperId": "davinci-prover",
+    "targetId": "S35",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "davinci-prover__S35__F4",
+    "paperId": "davinci-prover",
+    "targetId": "S35",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "divr__S6__clean",
+    "paperId": "divr",
+    "targetId": "S6",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3% to 43.4% at 1.9-3.5× the cost of greedy decoding, above search baselines that use 3.8-7.4×.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "divr__S6__F1",
+    "paperId": "divr",
+    "targetId": "S6",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3% to 43.4% at 1.9-3.5× the cost of greedy decoding, above search baselines that use 3.8-7.4×.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "35.3",
+        "new": "30.0"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r7.c12",
+    "cells": [
+      {
+        "id": "T1.r7.c12",
+        "old": "35.3",
+        "new": "30.0"
+      }
+    ]
+  },
+  {
+    "versionId": "divr__S6__F2",
+    "paperId": "divr",
+    "targetId": "S6",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 40.6% to 43.4% at 1.9-3.5× the cost of greedy decoding, above search baselines that use 3.8-7.4×.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "35.3",
+        "new": "40.6"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "divr__S6__F3",
+    "paperId": "divr",
+    "targetId": "S6",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3% to 43.4% at 1.9-3.5× the cost of greedy decoding, above search baselines that use 3.8-7.4×.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "divr__S6__F4",
+    "paperId": "divr",
+    "targetId": "S6",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3% to 43.4% at 1.9-3.5× the cost of greedy decoding, above search baselines that use 3.8-7.4×.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "35.3",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r7.c12",
+    "cells": [
+      {
+        "id": "T1.r7.c12",
+        "old": "35.3",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "divr__S18__clean",
+    "paperId": "divr",
+    "targetId": "S18",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "divr__S18__F1",
+    "paperId": "divr",
+    "targetId": "S18",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "0.838",
+        "new": "0.712"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T8.r8.c5",
+    "cells": [
+      {
+        "id": "T8.r8.c5",
+        "old": "0.838",
+        "new": "0.712"
+      }
+    ]
+  },
+  {
+    "versionId": "divr__S18__F2",
+    "paperId": "divr",
+    "targetId": "S18",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.964 versus 0.685).",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "0.838",
+        "new": "0.964"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "divr__S18__F3",
+    "paperId": "divr",
+    "targetId": "S18",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "divr__S18__F4",
+    "paperId": "divr",
+    "targetId": "S18",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "0.838",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T8.r8.c5",
+    "cells": [
+      {
+        "id": "T8.r8.c5",
+        "old": "0.838",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "fikiria__S4__clean",
+    "paperId": "fikiria",
+    "targetId": "S4",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "On AfriMGSM Swahili, Fikiria-AfriqueQwen-14B reaches 79.2%.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "fikiria__S4__F1",
+    "paperId": "fikiria",
+    "targetId": "S4",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "On AfriMGSM Swahili, Fikiria-AfriqueQwen-14B reaches 79.2%.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "79.2",
+        "new": "67.3"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r5.c6",
+    "cells": [
+      {
+        "id": "T1.r5.c6",
+        "old": "79.2 (± 2.6)",
+        "new": "67.3 (± 2.6)"
+      }
+    ]
+  },
+  {
+    "versionId": "fikiria__S4__F2",
+    "paperId": "fikiria",
+    "targetId": "S4",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "On AfriMGSM Swahili, Fikiria-AfriqueQwen-14B reaches 91.1%.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "79.2",
+        "new": "91.1"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "fikiria__S4__F3",
+    "paperId": "fikiria",
+    "targetId": "S4",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "On AfriMGSM Swahili, Fikiria-AfriqueQwen-14B reaches 79.2%.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "fikiria__S4__F4",
+    "paperId": "fikiria",
+    "targetId": "S4",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "On AfriMGSM Swahili, Fikiria-AfriqueQwen-14B reaches 79.2%.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "79.2",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r5.c6",
+    "cells": [
+      {
+        "id": "T1.r5.c6",
+        "old": "79.2 (± 2.6)",
+        "new": "- (± 2.6)"
+      }
+    ]
+  },
+  {
+    "versionId": "fikiria__S5__clean",
+    "paperId": "fikiria",
+    "targetId": "S5",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 68.0%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "fikiria__S5__F1",
+    "paperId": "fikiria",
+    "targetId": "S5",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 68.0%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "68.0",
+        "new": "57.8"
+      },
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "68.0",
+        "new": "57.8"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r13.c4, T1.r17.c4",
+    "cells": [
+      {
+        "id": "T1.r13.c4",
+        "old": "68.0 (± 3.0)",
+        "new": "57.8 (± 3.0)"
+      },
+      {
+        "id": "T1.r17.c4",
+        "old": "68.0",
+        "new": "57.8"
+      }
+    ]
+  },
+  {
+    "versionId": "fikiria__S5__F2",
+    "paperId": "fikiria",
+    "targetId": "S5",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 78.2%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "68.0",
+        "new": "78.2"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "fikiria__S5__F3",
+    "paperId": "fikiria",
+    "targetId": "S5",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 68.0%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "fikiria__S5__F4",
+    "paperId": "fikiria",
+    "targetId": "S5",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 68.0%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "68.0",
+        "new": "--"
+      },
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "68.0",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r13.c4, T1.r17.c4",
+    "cells": [
+      {
+        "id": "T1.r13.c4",
+        "old": "68.0 (± 3.0)",
+        "new": "- (± 3.0)"
+      },
+      {
+        "id": "T1.r17.c4",
+        "old": "68.0",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "fikiria__S25__clean",
+    "paperId": "fikiria",
+    "targetId": "S25",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "fikiria__S25__F1",
+    "paperId": "fikiria",
+    "targetId": "S25",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T1.r16.c1 has no plain number to change"
+  },
+  {
+    "versionId": "fikiria__S25__F2",
+    "paperId": "fikiria",
+    "targetId": "S25",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 7.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+    "changes": [
+      {
+        "file": "africa_workshop_camera_ready_submission.tex",
+        "old": "6.4",
+        "new": "7.4"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "fikiria__S25__F3",
+    "paperId": "fikiria",
+    "targetId": "S25",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "fikiria__S25__F4",
+    "paperId": "fikiria",
+    "targetId": "S25",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T1.r16.c1 has no plain number to remove"
+  },
+  {
+    "versionId": "hipfuse__S6__clean",
+    "paperId": "hipfuse",
+    "targetId": "S6",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "hipfuse__S6__F1",
+    "paperId": "hipfuse",
+    "targetId": "S6",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+    "changes": [
+      {
+        "file": "manuscript.tex",
+        "old": "62.5",
+        "new": "53.1"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T2.r9.c28",
+    "cells": [
+      {
+        "id": "T2.r9.c28",
+        "old": "62.5",
+        "new": "53.1"
+      }
+    ]
+  },
+  {
+    "versionId": "hipfuse__S6__F2",
+    "paperId": "hipfuse",
+    "targetId": "S6",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 73.3% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+    "changes": [
+      {
+        "file": "manuscript.tex",
+        "old": "63.7",
+        "new": "73.3"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "hipfuse__S6__F3",
+    "paperId": "hipfuse",
+    "targetId": "S6",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "hipfuse__S6__F4",
+    "paperId": "hipfuse",
+    "targetId": "S6",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+    "changes": [
+      {
+        "file": "manuscript.tex",
+        "old": "62.5}",
+        "new": "--}"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T2.r9.c28",
+    "cells": [
+      {
+        "id": "T2.r9.c28",
+        "old": "62.5",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "hipfuse__S8__clean",
+    "paperId": "hipfuse",
+    "targetId": "S8",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "hipfuse__S8__F1",
+    "paperId": "hipfuse",
+    "targetId": "S8",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+    "changes": [
+      {
+        "file": "manuscript.tex",
+        "old": "10.6",
+        "new": "9.0"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T5.r18.c6",
+    "cells": [
+      {
+        "id": "T5.r18.c6",
+        "old": "10.6",
+        "new": "9.0"
+      }
+    ]
+  },
+  {
+    "versionId": "hipfuse__S8__F2",
+    "paperId": "hipfuse",
+    "targetId": "S8",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 12.2% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+    "changes": [
+      {
+        "file": "manuscript.tex",
+        "old": "10.6",
+        "new": "12.2"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "hipfuse__S8__F3",
+    "paperId": "hipfuse",
+    "targetId": "S8",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "hipfuse__S8__F4",
+    "paperId": "hipfuse",
+    "targetId": "S8",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+    "changes": [
+      {
+        "file": "manuscript.tex",
+        "old": "10.6",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T5.r18.c6",
+    "cells": [
+      {
+        "id": "T5.r18.c6",
+        "old": "10.6",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "isharabart__S9__clean",
+    "paperId": "isharabart",
+    "targetId": "S9",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "isharabart__S9__F1",
+    "paperId": "isharabart",
+    "targetId": "S9",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+    "changes": [
+      {
+        "file": "IsharaBART.tex",
+        "old": "51.74",
+        "new": "43.98"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T6.r13.c9",
+    "cells": [
+      {
+        "id": "T6.r13.c9",
+        "old": "51.74",
+        "new": "43.98"
+      }
+    ]
+  },
+  {
+    "versionId": "isharabart__S9__F2",
+    "paperId": "isharabart",
+    "targetId": "S9",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 59.5, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+    "changes": [
+      {
+        "file": "IsharaBART.tex",
+        "old": "51.7",
+        "new": "59.5"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "isharabart__S9__F3",
+    "paperId": "isharabart",
+    "targetId": "S9",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "isharabart__S9__F4",
+    "paperId": "isharabart",
+    "targetId": "S9",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+    "changes": [
+      {
+        "file": "IsharaBART.tex",
+        "old": "51.74",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T6.r13.c9",
+    "cells": [
+      {
+        "id": "T6.r13.c9",
+        "old": "51.74",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "isharabart__S10__clean",
+    "paperId": "isharabart",
+    "targetId": "S10",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "isharabart__S10__F1",
+    "paperId": "isharabart",
+    "targetId": "S10",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T10.r5.c5 has no plain number to change"
+  },
+  {
+    "versionId": "isharabart__S10__F2",
+    "paperId": "isharabart",
+    "targetId": "S10",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Ablation studies demonstrate that pre-training provides 71.9–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+    "changes": [
+      {
+        "file": "IsharaBART.tex",
+        "old": "62.5",
+        "new": "71.9"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "isharabart__S10__F3",
+    "paperId": "isharabart",
+    "targetId": "S10",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "isharabart__S10__F4",
+    "paperId": "isharabart",
+    "targetId": "S10",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T10.r5.c5 has no plain number to remove"
+  },
+  {
+    "versionId": "isharabart__S11__clean",
+    "paperId": "isharabart",
+    "targetId": "S11",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "isharabart__S11__F1",
+    "paperId": "isharabart",
+    "targetId": "S11",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no edit of \"12.13\" changes only cell T11.r4.c4"
+  },
+  {
+    "versionId": "isharabart__S11__F2",
+    "paperId": "isharabart",
+    "targetId": "S11",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 114.2%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+    "changes": [
+      {
+        "file": "IsharaBART.tex",
+        "old": "99.3",
+        "new": "114.2"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "isharabart__S11__F3",
+    "paperId": "isharabart",
+    "targetId": "S11",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "isharabart__S11__F4",
+    "paperId": "isharabart",
+    "targetId": "S11",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+    "changes": [
+      {
+        "file": "IsharaBART.tex",
+        "old": "12.13",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T11.r4.c4",
+    "cells": [
+      {
+        "id": "T11.r4.c4",
+        "old": "-12.13 (-28.01%)",
+        "new": "- (-28.01%)"
+      }
+    ]
+  },
+  {
+    "versionId": "mape__S3__clean",
+    "paperId": "mape",
+    "targetId": "S3",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "mape__S3__F1",
+    "paperId": "mape",
+    "targetId": "S3",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+    "changes": [
+      {
+        "file": "sections\\tab_locomo.tex",
+        "old": "5.46",
+        "new": "4.64"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r8.c7",
+    "cells": [
+      {
+        "id": "T1.r8.c7",
+        "old": "5.46",
+        "new": "4.64"
+      }
+    ]
+  },
+  {
+    "versionId": "mape__S3__F2",
+    "paperId": "mape",
+    "targetId": "S3",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 14% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+    "changes": [
+      {
+        "file": "sections\\abstract.tex",
+        "old": "12",
+        "new": "14"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "mape__S3__F3",
+    "paperId": "mape",
+    "targetId": "S3",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "mape__S3__F4",
+    "paperId": "mape",
+    "targetId": "S3",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+    "changes": [
+      {
+        "file": "sections\\tab_locomo.tex",
+        "old": "5.46",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r8.c7",
+    "cells": [
+      {
+        "id": "T1.r8.c7",
+        "old": "5.46",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "mape__S29__clean",
+    "paperId": "mape",
+    "targetId": "S29",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "mape__S29__F1",
+    "paperId": "mape",
+    "targetId": "S29",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+    "changes": [
+      {
+        "file": "sections\\tab_locomo.tex",
+        "old": "5.46",
+        "new": "4.64"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r8.c7",
+    "cells": [
+      {
+        "id": "T1.r8.c7",
+        "old": "5.46",
+        "new": "4.64"
+      }
+    ]
+  },
+  {
+    "versionId": "mape__S29__F2",
+    "paperId": "mape",
+    "targetId": "S29",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 14% at 35% of the serving cost.",
+    "changes": [
+      {
+        "file": "sections\\introduction.tex",
+        "old": "12",
+        "new": "14"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "mape__S29__F3",
+    "paperId": "mape",
+    "targetId": "S29",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "mape__S29__F4",
+    "paperId": "mape",
+    "targetId": "S29",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+    "changes": [
+      {
+        "file": "sections\\tab_locomo.tex",
+        "old": "5.46",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r8.c7",
+    "cells": [
+      {
+        "id": "T1.r8.c7",
+        "old": "5.46",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "mape__S41__clean",
+    "paperId": "mape",
+    "targetId": "S41",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "mape__S41__F1",
+    "paperId": "mape",
+    "targetId": "S41",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "mape__S41__F2",
+    "paperId": "mape",
+    "targetId": "S41",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 103% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+    "changes": [
+      {
+        "file": "sections\\introduction.tex",
+        "old": "90",
+        "new": "103"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "mape__S41__F3",
+    "paperId": "mape",
+    "targetId": "S41",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "mape__S41__F4",
+    "paperId": "mape",
+    "targetId": "S41",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "olifant__S5__clean",
+    "paperId": "olifant",
+    "targetId": "S5",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "olifant__S5__F1",
+    "paperId": "olifant",
+    "targetId": "S5",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+    "changes": [
+      {
+        "file": "appendix_tables.tex",
+        "old": "38.1",
+        "new": "32.4"
+      },
+      {
+        "file": "appendix_tables.tex",
+        "old": "38.1",
+        "new": "32.4"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T6.r23.c2, T7.r23.c2",
+    "cells": [
+      {
+        "id": "T6.r23.c2",
+        "old": "38.1",
+        "new": "32.4"
+      },
+      {
+        "id": "T7.r23.c2",
+        "old": "38.1",
+        "new": "32.4"
+      }
+    ]
+  },
+  {
+    "versionId": "olifant__S5__F2",
+    "paperId": "olifant",
+    "targetId": "S5",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 43.8% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+    "changes": [
+      {
+        "file": "olifant.tex",
+        "old": "38.1",
+        "new": "43.8"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "olifant__S5__F3",
+    "paperId": "olifant",
+    "targetId": "S5",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "olifant__S5__F4",
+    "paperId": "olifant",
+    "targetId": "S5",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+    "changes": [
+      {
+        "file": "appendix_tables.tex",
+        "old": "38.1",
+        "new": "--"
+      },
+      {
+        "file": "appendix_tables.tex",
+        "old": "38.1",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T6.r23.c2, T7.r23.c2",
+    "cells": [
+      {
+        "id": "T6.r23.c2",
+        "old": "38.1",
+        "new": "-"
+      },
+      {
+        "id": "T7.r23.c2",
+        "old": "38.1",
+        "new": "-"
+      }
+    ]
+  },
+  {
+    "versionId": "olifant__S6__clean",
+    "paperId": "olifant",
+    "targetId": "S6",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "olifant__S6__F1",
+    "paperId": "olifant",
+    "targetId": "S6",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "olifant__S6__F2",
+    "paperId": "olifant",
+    "targetId": "S6",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "With a KV-cached verifier, itself a ~12× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+    "changes": [
+      {
+        "file": "olifant.tex",
+        "old": "10",
+        "new": "12"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "olifant__S6__F3",
+    "paperId": "olifant",
+    "targetId": "S6",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "olifant__S6__F4",
+    "paperId": "olifant",
+    "targetId": "S6",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "no cited evidence cell with a number"
+  },
+  {
+    "versionId": "olifant__S187__clean",
+    "paperId": "olifant",
+    "targetId": "S187",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "olifant__S187__F1",
+    "paperId": "olifant",
+    "targetId": "S187",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T1.r21.c8 has no plain number to change"
+  },
+  {
+    "versionId": "olifant__S187__F2",
+    "paperId": "olifant",
+    "targetId": "S187",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "The domain-matched legal model delivers 2.79× throughput and a matching 2.51× energy saving.",
+    "changes": [
+      {
+        "file": "olifant.tex",
+        "old": "2.43",
+        "new": "2.79"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "olifant__S187__F3",
+    "paperId": "olifant",
+    "targetId": "S187",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "olifant__S187__F4",
+    "paperId": "olifant",
+    "targetId": "S187",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "cell T1.r21.c8 has no plain number to remove"
+  },
+  {
+    "versionId": "peca__S33__clean",
+    "paperId": "peca",
+    "targetId": "S33",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "peca__S33__F1",
+    "paperId": "peca",
+    "targetId": "S33",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "72.8",
+        "new": "61.9"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r3.c3",
+    "cells": [
+      {
+        "id": "T1.r3.c3",
+        "old": "72.8%",
+        "new": "61.9%"
+      }
+    ]
+  },
+  {
+    "versionId": "peca__S33__F2",
+    "paperId": "peca",
+    "targetId": "S33",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.29 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "0.25",
+        "new": "0.29"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "peca__S33__F3",
+    "paperId": "peca",
+    "targetId": "S33",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "peca__S33__F4",
+    "paperId": "peca",
+    "targetId": "S33",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "72.8",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r3.c3",
+    "cells": [
+      {
+        "id": "T1.r3.c3",
+        "old": "72.8%",
+        "new": "-%"
+      }
+    ]
+  },
+  {
+    "versionId": "peca__S101__clean",
+    "paperId": "peca",
+    "targetId": "S101",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "Adding the conciseness term compresses the average response to roughly a quarter of its original size, and it does so almost regardless of how hard we push: the reduction is already 72.8% at λ=0.25 and creeps up only to 74.1% and 74.5% thereafter.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "peca__S101__F1",
+    "paperId": "peca",
+    "targetId": "S101",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "Adding the conciseness term compresses the average response to roughly a quarter of its original size, and it does so almost regardless of how hard we push: the reduction is already 72.8% at λ=0.25 and creeps up only to 74.1% and 74.5% thereafter.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "72.8",
+        "new": "61.9"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r3.c3",
+    "cells": [
+      {
+        "id": "T1.r3.c3",
+        "old": "72.8%",
+        "new": "61.9%"
+      }
+    ]
+  },
+  {
+    "versionId": "peca__S101__F2",
+    "paperId": "peca",
+    "targetId": "S101",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "Adding the conciseness term compresses the average response to roughly a quarter of its original size, and it does so almost regardless of how hard we push: the reduction is already 83.7% at λ=0.25 and creeps up only to 74.1% and 74.5% thereafter.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "72.8",
+        "new": "83.7"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "peca__S101__F3",
+    "paperId": "peca",
+    "targetId": "S101",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "Adding the conciseness term compresses the average response to roughly a quarter of its original size, and it does so almost regardless of how hard we push: the reduction is already 72.8% at λ=0.25 and creeps up only to 74.1% and 74.5% thereafter.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "peca__S101__F4",
+    "paperId": "peca",
+    "targetId": "S101",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "Adding the conciseness term compresses the average response to roughly a quarter of its original size, and it does so almost regardless of how hard we push: the reduction is already 72.8% at λ=0.25 and creeps up only to 74.1% and 74.5% thereafter.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "72.8",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r3.c3",
+    "cells": [
+      {
+        "id": "T1.r3.c3",
+        "old": "72.8%",
+        "new": "-%"
+      }
+    ]
+  },
+  {
+    "versionId": "peca__S104__clean",
+    "paperId": "peca",
+    "targetId": "S104",
+    "fault": "clean",
+    "expected": "supported",
+    "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+    "changes": [],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "peca__S104__F1",
+    "paperId": "peca",
+    "targetId": "S104",
+    "fault": "F1",
+    "expected": "unsupported",
+    "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "44.0",
+        "new": "37.4"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r3.c6",
+    "cells": [
+      {
+        "id": "T1.r3.c6",
+        "old": "44.0%",
+        "new": "37.4%"
+      }
+    ]
+  },
+  {
+    "versionId": "peca__S104__F2",
+    "paperId": "peca",
+    "targetId": "S104",
+    "fault": "F2",
+    "expected": "unsupported",
+    "claimText": "At λ=0.29, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "0.25",
+        "new": "0.29"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped"
+  },
+  {
+    "versionId": "peca__S104__F3",
+    "paperId": "peca",
+    "targetId": "S104",
+    "fault": "F3",
+    "expected": "unsupported",
+    "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+    "changes": [],
+    "valid": false,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "reason": "F3 needs a comparison claim"
+  },
+  {
+    "versionId": "peca__S104__F4",
+    "paperId": "peca",
+    "targetId": "S104",
+    "fault": "F4",
+    "expected": "unsupported",
+    "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+    "changes": [
+      {
+        "file": "main.tex",
+        "old": "44.0",
+        "new": "--"
+      }
+    ],
+    "valid": true,
+    "selection": "first 3 claims with numbers per paper, in document order (fixed rule, blind to tool labels); evidence cells checked against the paper's tables by code (primary cell: first matching cell outside the first column); comparisons not given, so F3 is skipped",
+    "cell": "T1.r3.c6",
+    "cells": [
+      {
+        "id": "T1.r3.c6",
+        "old": "44.0%",
+        "new": "-%"
+      }
+    ]
+  }
+]

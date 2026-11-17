@@ -1,0 +1,5938 @@
+{
+  "created": "2026-11-17T02:56:02.494Z",
+  "validVersions": 77,
+  "devPapers": [
+    "paper1"
+  ],
+  "code": {
+    "commits": [
+      {
+        "commit": null,
+        "dirty": null,
+        "runs": 693
+      }
+    ],
+    "warnings": [
+      "693 runs without a Git commit (the code version is unknown)."
+    ]
+  },
+  "cleanNotSupported": [
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S10__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+      "c2": "0.77%: only in text (S224). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "36.53% is stated in S182 (only in text, not recomputed from a table); 42.36% is stated in S182 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S10__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+      "c2": "0.77%: only in text (S224). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "36.53% is stated in S182 (only in text, not recomputed from a table); 42.36% is stated in S182 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S10__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "With the visual budget already capped, C2-Routing further reduces end-to-end FLOPs by 36.53% and visual tokens by 42.36% on average, with a mean relative task-score decrease of only 0.77%.",
+      "c2": "0.77%: only in text (S224). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "36.53% is stated in S182 (only in text, not recomputed from a table); 42.36% is stated in S182 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S247__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+      "c2": "1,024: only in text (S98); 36.53%: table cell T6.r17.c7; 42.36%: table cell T6.r17.c8; 99.23%: table cell T6.r17.c5. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S247__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+      "c2": "1,024: only in text (S8); 36.53%: only in text (S182); 42.36%: only in text (S182); 99.23%: only in text (S182). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S247__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+      "c2": "1,024: only in text (S8, S39, S98); 36.53%: only in text (S182); 42.36%: only in text (S182); 99.23%: only in text (S182). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S52__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+      "c2": "18: only in text (S9, S41, S153). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S52__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+      "c2": "18: only in text (S181). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "c2-routing__S52__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Experiments on three VLMs and 18 datasets show that, even when the visual-token budget is already capped, our method further reduces computation after accounting for all frontend overhead while largely preserving accuracy, demonstrating its effectiveness and broad applicability under resource constraints.",
+      "c2": "18: only in text (S181). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "davinci-prover__S35__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+      "c2": "1: table cell T2.r17.c4; 13.7: only in text (S6). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "davinci-prover__S35__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+      "c2": "1: table cell T2.r17.c4; 13.7: only in text (S6). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "davinci-prover__S35__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+      "c2": "1: table cell T2.r17.c4; 13.7: only in text (S6). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "davinci-prover__S6__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+      "c2": "13.7: only in text (S35). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "davinci-prover__S6__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+      "c2": "13.7 not found in the cited evidence (cited numbers: 92.6, 93.9, 51.1, 52.7, 32.3, 35.3, 93, 94.3, 53.8, 35.8, 36.1). Per number: 13.7: not found. Elsewhere in the paper: 13.7 is found only in text (S35); text alone cannot make a claim Supported. Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the cell or sentence that holds each number, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "davinci-prover__S6__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+      "c2": "13.7: only in text (S35). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "divr__S18__clean",
+      "paperId": "divr",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+      "c2": "0.838: only in text (S39); 0.685: only in text (S39). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "divr__S18__clean",
+      "paperId": "divr",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+      "c2": "0.838: only in text (S39); 0.685: only in text (S39). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "divr__S18__clean",
+      "paperId": "divr",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+      "c2": "0.838: only in text (S39); 0.685: only in text (S39). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "fikiria__S25__clean",
+      "paperId": "fikiria",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+      "c2": "12.0: only in text (S158); 2.0: only in text (S159). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "6.4 = |T1.r8.c5 - T1.r8.c6| = 6.4."
+    },
+    {
+      "mode": "on",
+      "versionId": "fikiria__S25__clean",
+      "paperId": "fikiria",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+      "c2": "12.0: only in text (S158); 2.0: only in text (S159). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "6.4 = |T1.r8.c5 - T1.r8.c6| = 6.4."
+    },
+    {
+      "mode": "on",
+      "versionId": "fikiria__S25__clean",
+      "paperId": "fikiria",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "In ablations on Qwen3, SFT+GRPO outperforms GRPO alone by 6.4 points at 8B, 12.0 points at 14B, and 2.0 points (within noise) at 32B.",
+      "c2": "12.0: only in text (S158); 2.0: only in text (S159). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "6.4 = |T1.r8.c5 - T1.r8.c6| = 6.4."
+    },
+    {
+      "mode": "on",
+      "versionId": "fikiria__S5__clean",
+      "paperId": "fikiria",
+      "dev": false,
+      "run": 1,
+      "label": "unsupported",
+      "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 68.0%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+      "c2": "68.0%: table cell T1.r13.c4; 78.8%: table cell T1.r18.c4."
+    },
+    {
+      "mode": "on",
+      "versionId": "fikiria__S5__clean",
+      "paperId": "fikiria",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "Under the same fixed prompt and strict answer-format scoring, GPT-4o reaches 68.0%, partly because it often fails the required answer format; IrokoBench reports 78.8% for GPT-4o using a best-per-model prompt, a figure numerically close to ours but not directly comparable.",
+      "c2": "68.0%: table cell T1.r13.c4; 78.8%: table cell T1.r18.c4."
+    },
+    {
+      "mode": "on",
+      "versionId": "hipfuse__S6__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+      "c2": "63.7%: table cell T3.r9.c23; 62.5%: table cell T2.r9.c28; 14.2: table cell T5.r14.c10; 22.4: table cell T5.r6.c10; 10: only in text (S222). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "hipfuse__S6__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+      "c2": "63.7%: only in text (S201); 62.5%: table cell T2.r9.c28; 14.2: table cell T5.r14.c10; 22.4: table cell T5.r6.c10; 10: only in text (S222). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "hipfuse__S6__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+      "c2": "63.7%: table cell T3.r9.c23; 62.5%: table cell T2.r9.c28; 14.2: table cell T5.r14.c10; 22.4: table cell T5.r6.c10; 10: only in text (S222). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "hipfuse__S8__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 1,
+      "label": "unsupported",
+      "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+      "c3": "10.6%, 8.7 does not follow from the cited evidence (cited values: T8.r7.c4=3.71, T8.r3.c4=3.83, T8.r12.c4=1.74, T8.r9.c4=1.65, T10.r3.c3=57, T10.r6.c3=65.4). Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "hipfuse__S8__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+      "c3": "10.6%, 8.7 does not follow from the cited evidence (cited values: T8.r4.c4=3.48, T8.r7.c4=3.71, T8.r9.c4=1.65, T8.r12.c4=1.74, T10.r3.c3=57, T10.r6.c3=65.4, T8.r5.c4=3.77, T8.r10.c4=1.83). Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "hipfuse__S8__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 3,
+      "label": "unsupported",
+      "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+      "c3": "10.6%, 8.7 does not follow from the cited evidence (cited values: T8.r7.c4=3.71, T8.r12.c4=1.74, T8.r3.c4=3.83, T8.r4.c4=3.48, T8.r10.c4=1.83, T8.r11.c4=2.17, T8.r5.c4=3.77, T8.r6.c4=3.76, T8.r8.c4=2.44, T8.r9.c4=1.65, T10.r3.c3=57, T10.r6.c3=65.4). Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S10__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+      "c2": "62.5: only in text (S317); 11.5: table cell T10.r5.c5. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "90.4% is stated in S316 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S10__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+      "c2": "62.5: only in text (S317); 11.5: table cell T10.r5.c5. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "90.4% is stated in S316 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S10__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Ablation studies demonstrate that pre-training provides 62.5–90.4% faster convergence and 11.5-118% higher BLEU-4 than scratch.",
+      "c2": "62.5: only in text (S317); 11.5: table cell T10.r5.c5. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "90.4% is stated in S316 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S11__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+      "c2": "28.0: table cell T11.r4.c4.",
+      "c3": "99.3% is stated in S423 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S11__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+      "c2": "28.0: table cell T11.r4.c4.",
+      "c3": "99.3% is stated in S423 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S11__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Low-rank adaptation (LoRA) reduces trainable parameters by 99.3%, but with 28.0-52.2% loss of BLEU-4 compared to full-parameter fine-tuning.",
+      "c2": "28.0: table cell T11.r4.c4.",
+      "c3": "99.3% is stated in S423 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S9__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+      "c2": "51.7: table cell T6.r7.c9; 61.40: table cell T8.r13.c9; 10%: only in text (S25). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S9__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+      "c2": "51.7: table cell T6.r13.c9; 61.40: table cell T8.r13.c9; 10%: only in text (S25). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "isharabart__S9__clean",
+      "paperId": "isharabart",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "On the gloss-to-sentence (G2S) task, it attains Bilingual Evaluation Understudy (BLEU-4) score up to 51.7, and on the sentence-to-gloss (S2G) task, it achieves 61.40, outperforming multilingual models despite having fewer than 10% of the parameters.",
+      "c2": "51.7: table cell T6.r13.c9; 61.40: table cell T8.r13.c9; 10%: only in text (S25). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S29__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+      "c2": "12%: table cell T1.r8.c7; 35%: only in text (S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S29__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+      "c2": "12%: table cell T1.r10.c7; 35%: only in text (S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S3__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+      "c2": "12%: table cell T1.r10.c7; 35%: only in text (S29, S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S3__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+      "c2": "12%: table cell T1.r20.c7; 35%: only in text (S29, S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S3__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 3,
+      "label": "unsupported",
+      "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S41__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+      "c2": "90%: table cell T1.r8.c4.",
+      "c3": "40% is stated in S149 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S41__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+      "c2": "90%: table cell T1.r8.c4.",
+      "c3": "40% is stated in S149 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "mape__S41__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "The selected accuracy-only programs invest in LLM-based memory construction, whereas the selected accuracy-cost programs reduce reliance on it in favor of selective computation at query time, using 90% and 40% fewer serving calls on LongMemEval and LoCoMo while retaining strong evaluation-set accuracy.",
+      "c2": "90%: table cell T1.r8.c4.",
+      "c3": "40% is stated in S149 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S187__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+      "c3": "2.43 is stated in S5 (only in text, not recomputed from a table); 2.51 is stated in S5 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S187__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+      "c3": "2.43 is stated in S5 (only in text, not recomputed from a table); 2.51 is stated in S5 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S187__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+      "c3": "2.43 is stated in S5 (only in text, not recomputed from a table); 2.51 is stated in S5 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S5__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+      "c2": "38.1%: table cell T6.r23.c2.",
+      "c3": "2.43 is stated in S78 (only in text, not recomputed from a table); 2.51 is stated in S112 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S5__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+      "c2": "38.1%: table cell T6.r23.c2.",
+      "c3": "2.43 is stated in S78 (only in text, not recomputed from a table); 2.51 is stated in S112 (only in text, not recomputed from a table). Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S5__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43× throughput and 2.51× lower energy per token than the neural verifier model alone.",
+      "c2": "38.1%: table cell T6.r23.c2.",
+      "c3": "2.43 is stated in S78 (only in text, not recomputed from a table); 2.51 = T3.r23.c8 / T3.r3.c8 = 2.51. Text alone cannot make a claim Supported: every difference must be recomputed from cited table cells."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S6__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 1,
+      "label": "unsupported",
+      "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+      "c2": "93: table cell T4.r21.c5; 100: only in text (S123, S189). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "14 does not follow from the cited evidence (cited values: T4.r9.c3=243, T4.r21.c5=93, T3.r21.c5=617, T3.r3.c3=1005). Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S6__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+      "c2": "93: only in text (S123); 100: only in text (S119, S123, S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "10, 14 does not follow from the cited evidence (cited values: T4.r21.c8=1.09, T4.r19.c8=0.94, T4.r9.c3=243, T4.r9.c5=303, T3.r3.c3=1005, T3.r3.c5=1313). Elsewhere in the paper: 10 is found only in text (S53); text alone cannot make a claim Supported. Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "olifant__S6__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 3,
+      "label": "unsupported",
+      "claimText": "With a KV-cached verifier, itself a ~10× energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25× throughput and the lowest energy in the study (93 J per 100 tokens, 14× below the uncached baseline).",
+      "c2": "93: table cell T4.r21.c5; 100: only in text (S119, S123, S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one.",
+      "c3": "14 does not follow from the cited evidence (cited values: T2.r7.c3=7.92, T2.r9.c3=5.4, T4.r5.c3=96, T4.r9.c3=243, T4.r21.c5=93). Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "on",
+      "versionId": "peca__S104__clean",
+      "paperId": "peca",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+      "c2": "0.25: only in text (S144); 44.0%: table cell T1.r3.c6; 40.8%: table cell T1.r2.c6; 3.2: only in text (S144). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "peca__S104__clean",
+      "paperId": "peca",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+      "c2": "0.25: only in text (S144); 44.0%: table cell T1.r3.c6; 40.8%: table cell T1.r2.c6; 3.2: only in text (S144). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "peca__S104__clean",
+      "paperId": "peca",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "At λ=0.25, MedMCQA accuracy was 44.0%, compared with 40.8% for vanilla SFT, a gain of 3.2 points, so the shorter answers were more accurate rather than less.",
+      "c2": "0.25: only in text (S144); 44.0%: table cell T1.r3.c6; 40.8%: table cell T1.r2.c6; 3.2: only in text (S144). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "peca__S33__clean",
+      "paperId": "peca",
+      "dev": false,
+      "run": 1,
+      "label": "unverified",
+      "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+      "c2": "0.25: only in text (S109, S111); 72.8%: table cell T1.r3.c3. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "peca__S33__clean",
+      "paperId": "peca",
+      "dev": false,
+      "run": 2,
+      "label": "unverified",
+      "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+      "c2": "0.25: only in text (S109, S111); 72.8%: table cell T1.r3.c3. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "on",
+      "versionId": "peca__S33__clean",
+      "paperId": "peca",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "We provide a systematic evaluation across four values of the conciseness strength λ, revealing a clear Pareto frontier between response length and diagnostic accuracy, and identifying λ=0.25 as the setting that achieves 72.8% length reduction with improved MedMCQA accuracy.",
+      "c2": "0.25: only in text (S109, S111); 72.8%: table cell T1.r3.c3. Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "strict",
+      "versionId": "c2-routing__S247__clean",
+      "paperId": "c2-routing",
+      "dev": false,
+      "run": 3,
+      "label": "unsupported",
+      "claimText": "With original inputs already capped at 1,024 visual tokens, our main configuration further saves an average of 36.53% in end-to-end FLOPs and 42.36% in visual tokens while retaining 99.23% of the task score.",
+      "c2": "1,024, 36.53%, 42.36%, 99.23% not found in the cited evidence (cited numbers: 36.47, 41.67, 37.81, 37.4, 44.1, 43.59). Per number: 1,024: not found; 36.53%: not found; 42.36%: not found; 99.23%: not found. Elsewhere in the paper: 1,024 may be in T1.r5.c1, T8.r7.c1, T16.r6.c1, T16.r16.c1 (also stated in text: S8, S39, S98); 36.53% may be in T3.r6.c5, T6.r17.c7 (also stated in text: S10, S182, S186); 42.36% may be in T6.r17.c8, T12.r18.c13, T20.r35.c7 (also stated in text: S10, S182); 99.23% may be in T6.r17.c5 (also stated in text: S182). Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the cell or sentence that holds each number, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "davinci-prover__S35__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 3,
+      "label": "unsupported",
+      "claimText": "Our mid-training improves Qwen3-8B pass@1 by an average of 13.7 points over the matched Base + SFT baseline across MiniF2F, FATE-M, and ProofNet, while consistently improving both Qwen3.5-9B and Qwen3.5-35B-A3B over their corresponding Base + SFT baselines.",
+      "c2": "13.7 not found in the cited evidence (cited numbers: 91.8, 92.6, 93.9, 93, 94.3, 79.4). Per number: 1: table cell T2.r13.c4; 13.7: not found. Elsewhere in the paper: 13.7 is found only in text (S6); text alone cannot make a claim Supported. Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the cell or sentence that holds each number, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "davinci-prover__S6__clean",
+      "paperId": "davinci-prover",
+      "dev": false,
+      "run": 1,
+      "label": "unsupported",
+      "claimText": "Our mid-training recipe yields an average improvement of 13.7 points over the matched Qwen3-8B SFT-only baseline across MiniF2F, FATE-M, and ProofNet.",
+      "c2": "13.7 not found in the cited evidence (cited numbers: 92.6, 93.9, 51.1, 52.7, 22.3, 24.9). Per number: 13.7: not found. Elsewhere in the paper: 13.7 is found only in text (S35); text alone cannot make a claim Supported. Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the cell or sentence that holds each number, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "divr__S18__clean",
+      "paperId": "divr",
+      "dev": false,
+      "run": 3,
+      "label": "unverified",
+      "claimText": "Error information is present at the level of individual cells, but confidence does not expose it, as a linear probe on hidden states separates wrong cells from correct ones better than confidence does (AUROC 0.838 versus 0.685).",
+      "c2": "0.838: only in text (S39); 0.685: only in text (S39). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "strict",
+      "versionId": "hipfuse__S6__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "On SemanticKITTI and MCD, HiPFuse achieves 63.7% and 62.5% mIoU at 14.2 and 22.4 FPS on Jetson AGX Orin, respectively, exceeding the 10 Hz scan rate.",
+      "c2": "63.7%, 10 not found in the cited evidence (cited numbers: 22.4, 14.2, 62.5, 71.6). Per number: 63.7%: not found; 62.5%: table cell T2.r9.c28; 14.2: table cell T5.r14.c10; 22.4: table cell T5.r6.c10; 10: not found. Elsewhere in the paper: 63.7% may be in T3.r2.c13, T3.r9.c23, T7.r4.c3 (also stated in text: S201); 10 may be in T2.r4.c24, T2.r6.c15, T8.r8.c2, T8.r9.c2 (also stated in text: S178, S222, S246). Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the cell or sentence that holds each number, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "hipfuse__S8__clean",
+      "paperId": "hipfuse",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "Replacing only the baseline semantic front end with HiPFuse in fixed robotic systems reduces odometry absolute trajectory error RMSE by 10.6% on average across two outdoor sequences and increases accepted-loop recall by 8.7 percentage points on SemanticKITTI.",
+      "c3": "10.6%, 8.7 does not follow from the cited evidence (cited values: T8.r3.c4=3.83, T8.r7.c4=3.71, T8.r8.c4=2.44, T8.r12.c4=1.74, T10.r3.c3=57, T10.r6.c3=65.4). Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "mape__S29__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "On LoCoMo, we observe an absolute accuracy gain of up to 12% at 35% of the serving cost.",
+      "c2": "35% not found in the cited evidence (cited numbers: 70.01, 7.07, 81.33, 1.14). Per number: 12%: table cell T1.r13.c7; 35%: not found. Elsewhere in the paper: 35% may be in T2.r8.c3, T7.r8.c3, T11.r2.c4 (also stated in text: S3, S126). Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the cell or sentence that holds each number, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "mape__S3__clean",
+      "paperId": "mape",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manually designed baselines at 35% of the serving cost, with further evaluations supporting transfer across serving backbones and benchmarks.",
+      "c2": "12%: table cell T1.r10.c7; 35%: only in text (S126). Text alone cannot make a claim Supported: every number must be in a cited table cell. Cite the table cell that holds each number, if the paper has one."
+    },
+    {
+      "mode": "strict",
+      "versionId": "olifant__S187__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 1,
+      "label": "unsupported",
+      "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+      "c3": "2.43, 2.51 does not follow from the cited evidence (fewer than two cited cells hold numbers, and no cited sentence states or computes it). Elsewhere in the paper: 2.43 is found only in text (S5, S78, S82); text alone cannot make a claim Supported; 2.51 is found only in text (S5, S112); text alone cannot make a claim Supported. Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    },
+    {
+      "mode": "strict",
+      "versionId": "olifant__S187__clean",
+      "paperId": "olifant",
+      "dev": false,
+      "run": 2,
+      "label": "unsupported",
+      "claimText": "The domain-matched legal model delivers 2.43× throughput and a matching 2.51× energy saving.",
+      "c3": "2.43, 2.51 does not follow from the cited evidence (fewer than two cited cells hold numbers, and no cited sentence states or computes it). Elsewhere in the paper: 2.43 is found only in text (S5, S78, S82); text alone cannot make a claim Supported; 2.51 is found only in text (S5, S112); text alone cannot make a claim Supported. Read them (review__get_section accepts sentence IDs, review__get_table the table) and cite the right one. Cite the two cells that give this difference, or the sentence where the paper computes it, or label the claim unsupported."
+    }
+  ],
+  "errorRuns": 0,
+  "modes": {
+    "on": {
+      "overall": {
+        "runs": 231,
+        "versions": 77,
+        "precision": {
+          "value": 0.5238095238095238,
+          "k": 11,
+          "n": 21
+        },
+        "recall": {
+          "value": 0.1527777777777778,
+          "k": 11,
+          "n": 72
+        },
+        "falseAcceptance": {
+          "value": 0.06289308176100629,
+          "k": 10,
+          "n": 159
+        },
+        "detectionStrict": {
+          "value": 0.44025157232704404,
+          "k": 70,
+          "n": 159
+        },
+        "detectionLenient": {
+          "value": 0.9371069182389937,
+          "k": 149,
+          "n": 159
+        },
+        "falseAlarm": {
+          "value": 0.1527777777777778,
+          "k": 11,
+          "n": 72
+        },
+        "consistency": {
+          "value": 0.7792207792207793,
+          "k": 60,
+          "n": 77
+        },
+        "missingIds": {
+          "value": 0.0013766519823788547,
+          "k": 5,
+          "n": 3632
+        },
+        "modelSupportedFailing": {
+          "value": 0.22941176470588234,
+          "k": 39,
+          "n": 170
+        },
+        "modelSupportedNotSupported": {
+          "value": 0.8764705882352941,
+          "k": 149,
+          "n": 170
+        },
+        "faultyAcceptedCaught": {
+          "value": 0,
+          "k": 0,
+          "n": 10
+        },
+        "failingByCheck": {
+          "C1": {
+            "value": 0.0058823529411764705,
+            "k": 1,
+            "n": 170
+          },
+          "C2": {
+            "value": 0.08823529411764706,
+            "k": 15,
+            "n": 170
+          },
+          "C3": {
+            "value": 0.08823529411764706,
+            "k": 15,
+            "n": 170
+          },
+          "C4": {
+            "value": 0.047058823529411764,
+            "k": 8,
+            "n": 170
+          }
+        },
+        "byFault": {
+          "clean": {
+            "runs": 72,
+            "supported": {
+              "value": 0.1527777777777778,
+              "k": 11,
+              "n": 72
+            },
+            "strict": {
+              "value": 0.1527777777777778,
+              "k": 11,
+              "n": 72
+            },
+            "lenient": {
+              "value": 0.8472222222222222,
+              "k": 61,
+              "n": 72
+            }
+          },
+          "F1": {
+            "runs": 42,
+            "supported": {
+              "value": 0,
+              "k": 0,
+              "n": 42
+            },
+            "strict": {
+              "value": 0.19047619047619047,
+              "k": 8,
+              "n": 42
+            },
+            "lenient": {
+              "value": 1,
+              "k": 42,
+              "n": 42
+            }
+          },
+          "F2": {
+            "runs": 72,
+            "supported": {
+              "value": 0.09722222222222222,
+              "k": 7,
+              "n": 72
+            },
+            "strict": {
+              "value": 0.7361111111111112,
+              "k": 53,
+              "n": 72
+            },
+            "lenient": {
+              "value": 0.9027777777777778,
+              "k": 65,
+              "n": 72
+            }
+          },
+          "F4": {
+            "runs": 45,
+            "supported": {
+              "value": 0.06666666666666667,
+              "k": 3,
+              "n": 45
+            },
+            "strict": {
+              "value": 0.2,
+              "k": 9,
+              "n": 45
+            },
+            "lenient": {
+              "value": 0.9333333333333333,
+              "k": 42,
+              "n": 45
+            }
+          }
+        },
+        "notFound": {
+          "value": 0.004329004329004329,
+          "k": 1,
+          "n": 231
+        },
+        "inputTokens": {
+          "value": 93134.1948051948,
+          "n": 231
+        },
+        "outputTokens": {
+          "value": 800.5757575757576,
+          "n": 231
+        },
+        "seconds": {
+          "value": 19.92424242424242,
+          "n": 231
+        },
+        "steps": {
+          "value": 11.74025974025974,
+          "n": 231
+        }
+      },
+      "byPaper": {
+        "c2-routing": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0,
+            "k": 0,
+            "n": 2
+          },
+          "recall": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.13333333333333333,
+            "k": 2,
+            "n": 15
+          },
+          "detectionStrict": {
+            "value": 0.3333333333333333,
+            "k": 5,
+            "n": 15
+          },
+          "detectionLenient": {
+            "value": 0.8666666666666667,
+            "k": 13,
+            "n": 15
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.75,
+            "k": 6,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 589
+          },
+          "modelSupportedFailing": {
+            "value": 0.16666666666666666,
+            "k": 3,
+            "n": 18
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.8888888888888888,
+            "k": 16,
+            "n": 18
+          },
+          "faultyAcceptedCaught": {
+            "value": 0,
+            "k": 0,
+            "n": 2
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 18
+            },
+            "C2": {
+              "value": 0.1111111111111111,
+              "k": 2,
+              "n": 18
+            },
+            "C3": {
+              "value": 0.05555555555555555,
+              "k": 1,
+              "n": 18
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 18
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.5555555555555556,
+                "k": 5,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.7777777777777778,
+                "k": 7,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 3,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 174466.04166666666,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 975.25,
+            "n": 24
+          },
+          "seconds": {
+            "value": 37.26666666666666,
+            "n": 24
+          },
+          "steps": {
+            "value": 13.583333333333334,
+            "n": 24
+          }
+        },
+        "davinci-prover": {
+          "runs": 12,
+          "versions": 4,
+          "precision": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "recall": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "detectionStrict": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "detectionLenient": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "falseAlarm": {
+            "value": 0.16666666666666666,
+            "k": 1,
+            "n": 6
+          },
+          "consistency": {
+            "value": 0.75,
+            "k": 3,
+            "n": 4
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 258
+          },
+          "modelSupportedFailing": {
+            "value": 0.2857142857142857,
+            "k": 2,
+            "n": 7
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 7,
+            "n": 7
+          },
+          "faultyAcceptedCaught": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 7
+            },
+            "C2": {
+              "value": 0.2857142857142857,
+              "k": 2,
+              "n": 7
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 7
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 7
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 12
+          },
+          "inputTokens": {
+            "value": 124401.75,
+            "n": 12
+          },
+          "outputTokens": {
+            "value": 1061.5833333333333,
+            "n": 12
+          },
+          "seconds": {
+            "value": 30.25,
+            "n": 12
+          },
+          "steps": {
+            "value": 16,
+            "n": 12
+          }
+        },
+        "divr": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 1,
+            "k": 3,
+            "n": 3
+          },
+          "recall": {
+            "value": 0.5,
+            "k": 3,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0.3333333333333333,
+            "k": 6,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "consistency": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 327
+          },
+          "modelSupportedFailing": {
+            "value": 0.17647058823529413,
+            "k": 3,
+            "n": 17
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.8235294117647058,
+            "k": 14,
+            "n": 17
+          },
+          "faultyAcceptedCaught": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 17
+            },
+            "C2": {
+              "value": 0.17647058823529413,
+              "k": 3,
+              "n": 17
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 17
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 17
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 105836.54166666667,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 791.4583333333334,
+            "n": 24
+          },
+          "seconds": {
+            "value": 21.908333333333328,
+            "n": 24
+          },
+          "steps": {
+            "value": 13.958333333333334,
+            "n": 24
+          }
+        },
+        "fikiria": {
+          "runs": 30,
+          "versions": 10,
+          "precision": {
+            "value": 1,
+            "k": 4,
+            "n": 4
+          },
+          "recall": {
+            "value": 0.4444444444444444,
+            "k": 4,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0,
+            "k": 0,
+            "n": 21
+          },
+          "detectionStrict": {
+            "value": 0.5238095238095238,
+            "k": 11,
+            "n": 21
+          },
+          "detectionLenient": {
+            "value": 1,
+            "k": 21,
+            "n": 21
+          },
+          "falseAlarm": {
+            "value": 0.2222222222222222,
+            "k": 2,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.6,
+            "k": 6,
+            "n": 10
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 319
+          },
+          "modelSupportedFailing": {
+            "value": 0.17647058823529413,
+            "k": 3,
+            "n": 17
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.7647058823529411,
+            "k": 13,
+            "n": 17
+          },
+          "faultyAcceptedCaught": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 17
+            },
+            "C2": {
+              "value": 0.058823529411764705,
+              "k": 1,
+              "n": 17
+            },
+            "C3": {
+              "value": 0.058823529411764705,
+              "k": 1,
+              "n": 17
+            },
+            "C4": {
+              "value": 0.058823529411764705,
+              "k": 1,
+              "n": 17
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0.4444444444444444,
+                "k": 4,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.5555555555555556,
+                "k": 5,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0.03333333333333333,
+            "k": 1,
+            "n": 30
+          },
+          "inputTokens": {
+            "value": 47244.833333333336,
+            "n": 30
+          },
+          "outputTokens": {
+            "value": 592.3,
+            "n": 30
+          },
+          "seconds": {
+            "value": 12.56,
+            "n": 30
+          },
+          "steps": {
+            "value": 9.3,
+            "n": 30
+          }
+        },
+        "hipfuse": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "recall": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0.6666666666666666,
+            "k": 12,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0.5,
+            "k": 3,
+            "n": 6
+          },
+          "consistency": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0.009569377990430622,
+            "k": 4,
+            "n": 418
+          },
+          "modelSupportedFailing": {
+            "value": 0.5555555555555556,
+            "k": 10,
+            "n": 18
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "faultyAcceptedCaught": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 18
+            },
+            "C2": {
+              "value": 0.16666666666666666,
+              "k": 3,
+              "n": 18
+            },
+            "C3": {
+              "value": 0.3888888888888889,
+              "k": 7,
+              "n": 18
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 18
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 124310.625,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 924.25,
+            "n": 24
+          },
+          "seconds": {
+            "value": 25,
+            "n": 24
+          },
+          "steps": {
+            "value": 14.416666666666666,
+            "n": 24
+          }
+        },
+        "isharabart": {
+          "runs": 27,
+          "versions": 9,
+          "precision": {
+            "value": 0,
+            "k": 0,
+            "n": 2
+          },
+          "recall": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.1111111111111111,
+            "k": 2,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0.3333333333333333,
+            "k": 6,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0.8888888888888888,
+            "k": 16,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0.1111111111111111,
+            "k": 1,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.6666666666666666,
+            "k": 6,
+            "n": 9
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 379
+          },
+          "modelSupportedFailing": {
+            "value": 0.17391304347826086,
+            "k": 4,
+            "n": 23
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.9130434782608695,
+            "k": 21,
+            "n": 23
+          },
+          "faultyAcceptedCaught": {
+            "value": 0,
+            "k": 0,
+            "n": 2
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 23
+            },
+            "C2": {
+              "value": 0,
+              "k": 0,
+              "n": 23
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 23
+            },
+            "C4": {
+              "value": 0.17391304347826086,
+              "k": 4,
+              "n": 23
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 3,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.8333333333333334,
+                "k": 5,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 27
+          },
+          "inputTokens": {
+            "value": 76497.88888888889,
+            "n": 27
+          },
+          "outputTokens": {
+            "value": 831.4444444444445,
+            "n": 27
+          },
+          "seconds": {
+            "value": 16.437037037037037,
+            "n": 27
+          },
+          "steps": {
+            "value": 10.666666666666666,
+            "n": 27
+          }
+        },
+        "mape": {
+          "runs": 30,
+          "versions": 10,
+          "precision": {
+            "value": 0.16666666666666666,
+            "k": 1,
+            "n": 6
+          },
+          "recall": {
+            "value": 0.1111111111111111,
+            "k": 1,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.23809523809523808,
+            "k": 5,
+            "n": 21
+          },
+          "detectionStrict": {
+            "value": 0.14285714285714285,
+            "k": 3,
+            "n": 21
+          },
+          "detectionLenient": {
+            "value": 0.7619047619047619,
+            "k": 16,
+            "n": 21
+          },
+          "falseAlarm": {
+            "value": 0.1111111111111111,
+            "k": 1,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.5,
+            "k": 5,
+            "n": 10
+          },
+          "missingIds": {
+            "value": 0.002150537634408602,
+            "k": 1,
+            "n": 465
+          },
+          "modelSupportedFailing": {
+            "value": 0.08,
+            "k": 2,
+            "n": 25
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.76,
+            "k": 19,
+            "n": 25
+          },
+          "faultyAcceptedCaught": {
+            "value": 0,
+            "k": 0,
+            "n": 5
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.04,
+              "k": 1,
+              "n": 25
+            },
+            "C2": {
+              "value": 0.04,
+              "k": 1,
+              "n": 25
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 25
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 25
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.3333333333333333,
+                "k": 3,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 3,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.6666666666666666,
+                "k": 6,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 30
+          },
+          "inputTokens": {
+            "value": 82519.9,
+            "n": 30
+          },
+          "outputTokens": {
+            "value": 730.4666666666667,
+            "n": 30
+          },
+          "seconds": {
+            "value": 14.936666666666666,
+            "n": 30
+          },
+          "steps": {
+            "value": 9.566666666666666,
+            "n": 30
+          }
+        },
+        "olifant": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0,
+            "k": 0,
+            "n": 1
+          },
+          "recall": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.06666666666666667,
+            "k": 1,
+            "n": 15
+          },
+          "detectionStrict": {
+            "value": 0.4666666666666667,
+            "k": 7,
+            "n": 15
+          },
+          "detectionLenient": {
+            "value": 0.9333333333333333,
+            "k": 14,
+            "n": 15
+          },
+          "falseAlarm": {
+            "value": 0.3333333333333333,
+            "k": 3,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.875,
+            "k": 7,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 372
+          },
+          "modelSupportedFailing": {
+            "value": 0.3333333333333333,
+            "k": 7,
+            "n": 21
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.9523809523809523,
+            "k": 20,
+            "n": 21
+          },
+          "faultyAcceptedCaught": {
+            "value": 0,
+            "k": 0,
+            "n": 1
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 21
+            },
+            "C2": {
+              "value": 0.047619047619047616,
+              "k": 1,
+              "n": 21
+            },
+            "C3": {
+              "value": 0.2857142857142857,
+              "k": 6,
+              "n": 21
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 21
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 3,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.7777777777777778,
+                "k": 7,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 3,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 111967.54166666667,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 899.9166666666666,
+            "n": 24
+          },
+          "seconds": {
+            "value": 19.349999999999998,
+            "n": 24
+          },
+          "steps": {
+            "value": 12.25,
+            "n": 24
+          }
+        },
+        "peca": {
+          "runs": 36,
+          "versions": 12,
+          "precision": {
+            "value": 1,
+            "k": 3,
+            "n": 3
+          },
+          "recall": {
+            "value": 0.3333333333333333,
+            "k": 3,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0,
+            "k": 0,
+            "n": 27
+          },
+          "detectionStrict": {
+            "value": 0.5185185185185185,
+            "k": 14,
+            "n": 27
+          },
+          "detectionLenient": {
+            "value": 1,
+            "k": 27,
+            "n": 27
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.9166666666666666,
+            "k": 11,
+            "n": 12
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 505
+          },
+          "modelSupportedFailing": {
+            "value": 0.20833333333333334,
+            "k": 5,
+            "n": 24
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.875,
+            "k": 21,
+            "n": 24
+          },
+          "faultyAcceptedCaught": {
+            "value": null,
+            "k": 0,
+            "n": 0
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            },
+            "C2": {
+              "value": 0.08333333333333333,
+              "k": 2,
+              "n": 24
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            },
+            "C4": {
+              "value": 0.125,
+              "k": 3,
+              "n": 24
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0.3333333333333333,
+                "k": 3,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.6666666666666666,
+                "k": 6,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 3,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 36
+          },
+          "inputTokens": {
+            "value": 46245.97222222222,
+            "n": 36
+          },
+          "outputTokens": {
+            "value": 663.3611111111111,
+            "n": 36
+          },
+          "seconds": {
+            "value": 13.505555555555555,
+            "n": 36
+          },
+          "steps": {
+            "value": 10.13888888888889,
+            "n": 36
+          }
+        }
+      }
+    },
+    "off": {
+      "overall": {
+        "runs": 231,
+        "versions": 77,
+        "precision": {
+          "value": 0.3130434782608696,
+          "k": 72,
+          "n": 230
+        },
+        "recall": {
+          "value": 1,
+          "k": 72,
+          "n": 72
+        },
+        "falseAcceptance": {
+          "value": 0.9937106918238994,
+          "k": 158,
+          "n": 159
+        },
+        "detectionStrict": {
+          "value": 0.006289308176100629,
+          "k": 1,
+          "n": 159
+        },
+        "detectionLenient": {
+          "value": 0.006289308176100629,
+          "k": 1,
+          "n": 159
+        },
+        "falseAlarm": {
+          "value": 0,
+          "k": 0,
+          "n": 72
+        },
+        "consistency": {
+          "value": 0.987012987012987,
+          "k": 76,
+          "n": 77
+        },
+        "missingIds": {
+          "value": 0.0043821209465381246,
+          "k": 5,
+          "n": 1141
+        },
+        "modelSupportedFailing": {
+          "value": 0.9043478260869565,
+          "k": 208,
+          "n": 230
+        },
+        "modelSupportedNotSupported": {
+          "value": 0.9869565217391304,
+          "k": 227,
+          "n": 230
+        },
+        "faultyAcceptedCaught": {
+          "value": 1,
+          "k": 158,
+          "n": 158
+        },
+        "failingByCheck": {
+          "C1": {
+            "value": 0.013043478260869565,
+            "k": 3,
+            "n": 230
+          },
+          "C2": {
+            "value": 0.717391304347826,
+            "k": 165,
+            "n": 230
+          },
+          "C3": {
+            "value": 0.24782608695652175,
+            "k": 57,
+            "n": 230
+          },
+          "C4": {
+            "value": 0.11739130434782609,
+            "k": 27,
+            "n": 230
+          }
+        },
+        "byFault": {
+          "clean": {
+            "runs": 72,
+            "supported": {
+              "value": 1,
+              "k": 72,
+              "n": 72
+            },
+            "strict": {
+              "value": 0,
+              "k": 0,
+              "n": 72
+            },
+            "lenient": {
+              "value": 0,
+              "k": 0,
+              "n": 72
+            }
+          },
+          "F1": {
+            "runs": 42,
+            "supported": {
+              "value": 0.9761904761904762,
+              "k": 41,
+              "n": 42
+            },
+            "strict": {
+              "value": 0.023809523809523808,
+              "k": 1,
+              "n": 42
+            },
+            "lenient": {
+              "value": 0.023809523809523808,
+              "k": 1,
+              "n": 42
+            }
+          },
+          "F2": {
+            "runs": 72,
+            "supported": {
+              "value": 1,
+              "k": 72,
+              "n": 72
+            },
+            "strict": {
+              "value": 0,
+              "k": 0,
+              "n": 72
+            },
+            "lenient": {
+              "value": 0,
+              "k": 0,
+              "n": 72
+            }
+          },
+          "F4": {
+            "runs": 45,
+            "supported": {
+              "value": 1,
+              "k": 45,
+              "n": 45
+            },
+            "strict": {
+              "value": 0,
+              "k": 0,
+              "n": 45
+            },
+            "lenient": {
+              "value": 0,
+              "k": 0,
+              "n": 45
+            }
+          }
+        },
+        "notFound": {
+          "value": 0,
+          "k": 0,
+          "n": 231
+        },
+        "inputTokens": {
+          "value": 40102.02164502165,
+          "n": 231
+        },
+        "outputTokens": {
+          "value": 435.2554112554113,
+          "n": 231
+        },
+        "seconds": {
+          "value": 9.93982683982684,
+          "n": 231
+        },
+        "steps": {
+          "value": 7.454545454545454,
+          "n": 231
+        }
+      },
+      "byPaper": {
+        "c2-routing": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.375,
+            "k": 9,
+            "n": 24
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 15,
+            "n": 15
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 15
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 15
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 130
+          },
+          "modelSupportedFailing": {
+            "value": 0.9583333333333334,
+            "k": 23,
+            "n": 24
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 24,
+            "n": 24
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 15,
+            "n": 15
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.041666666666666664,
+              "k": 1,
+              "n": 24
+            },
+            "C2": {
+              "value": 0.9166666666666666,
+              "k": 22,
+              "n": 24
+            },
+            "C3": {
+              "value": 0.375,
+              "k": 9,
+              "n": 24
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 55125.25,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 454.5416666666667,
+            "n": 24
+          },
+          "seconds": {
+            "value": 10.404166666666667,
+            "n": 24
+          },
+          "steps": {
+            "value": 7.583333333333333,
+            "n": 24
+          }
+        },
+        "davinci-prover": {
+          "runs": 12,
+          "versions": 4,
+          "precision": {
+            "value": 0.5,
+            "k": 6,
+            "n": 12
+          },
+          "recall": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "consistency": {
+            "value": 1,
+            "k": 4,
+            "n": 4
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 84
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 12,
+            "n": 12
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 12,
+            "n": 12
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 12
+            },
+            "C2": {
+              "value": 1,
+              "k": 12,
+              "n": 12
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 12
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 12
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 12
+          },
+          "inputTokens": {
+            "value": 61434.5,
+            "n": 12
+          },
+          "outputTokens": {
+            "value": 573.1666666666666,
+            "n": 12
+          },
+          "seconds": {
+            "value": 14.008333333333335,
+            "n": 12
+          },
+          "steps": {
+            "value": 10.333333333333334,
+            "n": 12
+          }
+        },
+        "divr": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.25,
+            "k": 6,
+            "n": 24
+          },
+          "recall": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "consistency": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 98
+          },
+          "modelSupportedFailing": {
+            "value": 0.6666666666666666,
+            "k": 16,
+            "n": 24
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 24,
+            "n": 24
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            },
+            "C2": {
+              "value": 0.6666666666666666,
+              "k": 16,
+              "n": 24
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 44070.041666666664,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 456.125,
+            "n": 24
+          },
+          "seconds": {
+            "value": 10.966666666666663,
+            "n": 24
+          },
+          "steps": {
+            "value": 8.458333333333334,
+            "n": 24
+          }
+        },
+        "fikiria": {
+          "runs": 30,
+          "versions": 10,
+          "precision": {
+            "value": 0.3,
+            "k": 9,
+            "n": 30
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 21,
+            "n": 21
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 21
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 21
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 1,
+            "k": 10,
+            "n": 10
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 107
+          },
+          "modelSupportedFailing": {
+            "value": 0.8,
+            "k": 24,
+            "n": 30
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.9,
+            "k": 27,
+            "n": 30
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 21,
+            "n": 21
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 30
+            },
+            "C2": {
+              "value": 0.5,
+              "k": 15,
+              "n": 30
+            },
+            "C3": {
+              "value": 0.1,
+              "k": 3,
+              "n": 30
+            },
+            "C4": {
+              "value": 0.4,
+              "k": 12,
+              "n": 30
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 30
+          },
+          "inputTokens": {
+            "value": 26007.9,
+            "n": 30
+          },
+          "outputTokens": {
+            "value": 347.1,
+            "n": 30
+          },
+          "seconds": {
+            "value": 7.826666666666666,
+            "n": 30
+          },
+          "steps": {
+            "value": 6.366666666666666,
+            "n": 30
+          }
+        },
+        "hipfuse": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.25,
+            "k": 6,
+            "n": 24
+          },
+          "recall": {
+            "value": 1,
+            "k": 6,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "consistency": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0.026785714285714284,
+            "k": 3,
+            "n": 112
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 24,
+            "n": 24
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 24,
+            "n": 24
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.08333333333333333,
+              "k": 2,
+              "n": 24
+            },
+            "C2": {
+              "value": 0.4166666666666667,
+              "k": 10,
+              "n": 24
+            },
+            "C3": {
+              "value": 0.5,
+              "k": 12,
+              "n": 24
+            },
+            "C4": {
+              "value": 0.08333333333333333,
+              "k": 2,
+              "n": 24
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 44600.75,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 461.5833333333333,
+            "n": 24
+          },
+          "seconds": {
+            "value": 10.279166666666667,
+            "n": 24
+          },
+          "steps": {
+            "value": 8.125,
+            "n": 24
+          }
+        },
+        "isharabart": {
+          "runs": 27,
+          "versions": 9,
+          "precision": {
+            "value": 0.3333333333333333,
+            "k": 9,
+            "n": 27
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 166
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 27,
+            "n": 27
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 27,
+            "n": 27
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 27
+            },
+            "C2": {
+              "value": 0.7037037037037037,
+              "k": 19,
+              "n": 27
+            },
+            "C3": {
+              "value": 0.25925925925925924,
+              "k": 7,
+              "n": 27
+            },
+            "C4": {
+              "value": 0.2962962962962963,
+              "k": 8,
+              "n": 27
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 27
+          },
+          "inputTokens": {
+            "value": 42670.148148148146,
+            "n": 27
+          },
+          "outputTokens": {
+            "value": 455.81481481481484,
+            "n": 27
+          },
+          "seconds": {
+            "value": 10.137037037037036,
+            "n": 27
+          },
+          "steps": {
+            "value": 7.851851851851852,
+            "n": 27
+          }
+        },
+        "mape": {
+          "runs": 30,
+          "versions": 10,
+          "precision": {
+            "value": 0.3,
+            "k": 9,
+            "n": 30
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 21,
+            "n": 21
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 21
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 21
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 1,
+            "k": 10,
+            "n": 10
+          },
+          "missingIds": {
+            "value": 0.010526315789473684,
+            "k": 2,
+            "n": 190
+          },
+          "modelSupportedFailing": {
+            "value": 0.9,
+            "k": 27,
+            "n": 30
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 30,
+            "n": 30
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 21,
+            "n": 21
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 30
+            },
+            "C2": {
+              "value": 0.9,
+              "k": 27,
+              "n": 30
+            },
+            "C3": {
+              "value": 0.06666666666666667,
+              "k": 2,
+              "n": 30
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 30
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 30
+          },
+          "inputTokens": {
+            "value": 40055.8,
+            "n": 30
+          },
+          "outputTokens": {
+            "value": 432.8,
+            "n": 30
+          },
+          "seconds": {
+            "value": 10.019999999999998,
+            "n": 30
+          },
+          "steps": {
+            "value": 6.766666666666667,
+            "n": 30
+          }
+        },
+        "olifant": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.375,
+            "k": 9,
+            "n": 24
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 1,
+            "k": 15,
+            "n": 15
+          },
+          "detectionStrict": {
+            "value": 0,
+            "k": 0,
+            "n": 15
+          },
+          "detectionLenient": {
+            "value": 0,
+            "k": 0,
+            "n": 15
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 98
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 24,
+            "n": 24
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 24,
+            "n": 24
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 15,
+            "n": 15
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            },
+            "C2": {
+              "value": 0.5416666666666666,
+              "k": 13,
+              "n": 24
+            },
+            "C3": {
+              "value": 1,
+              "k": 24,
+              "n": 24
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 24
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 42294.708333333336,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 446.7083333333333,
+            "n": 24
+          },
+          "seconds": {
+            "value": 9.820833333333335,
+            "n": 24
+          },
+          "steps": {
+            "value": 6.708333333333333,
+            "n": 24
+          }
+        },
+        "peca": {
+          "runs": 36,
+          "versions": 12,
+          "precision": {
+            "value": 0.2571428571428571,
+            "k": 9,
+            "n": 35
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.9629629629629629,
+            "k": 26,
+            "n": 27
+          },
+          "detectionStrict": {
+            "value": 0.037037037037037035,
+            "k": 1,
+            "n": 27
+          },
+          "detectionLenient": {
+            "value": 0.037037037037037035,
+            "k": 1,
+            "n": 27
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.9166666666666666,
+            "k": 11,
+            "n": 12
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 156
+          },
+          "modelSupportedFailing": {
+            "value": 0.8857142857142857,
+            "k": 31,
+            "n": 35
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 35,
+            "n": 35
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 26,
+            "n": 26
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 35
+            },
+            "C2": {
+              "value": 0.8857142857142857,
+              "k": 31,
+              "n": 35
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 35
+            },
+            "C4": {
+              "value": 0.14285714285714285,
+              "k": 5,
+              "n": 35
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 9,
+              "supported": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 36
+          },
+          "inputTokens": {
+            "value": 25726.944444444445,
+            "n": 36
+          },
+          "outputTokens": {
+            "value": 397.4166666666667,
+            "n": 36
+          },
+          "seconds": {
+            "value": 8.988888888888889,
+            "n": 36
+          },
+          "steps": {
+            "value": 6.972222222222222,
+            "n": 36
+          }
+        }
+      }
+    },
+    "strict": {
+      "overall": {
+        "runs": 231,
+        "versions": 77,
+        "precision": {
+          "value": 0.37575757575757573,
+          "k": 62,
+          "n": 165
+        },
+        "recall": {
+          "value": 0.8611111111111112,
+          "k": 62,
+          "n": 72
+        },
+        "falseAcceptance": {
+          "value": 0.6477987421383647,
+          "k": 103,
+          "n": 159
+        },
+        "detectionStrict": {
+          "value": 0.32075471698113206,
+          "k": 51,
+          "n": 159
+        },
+        "detectionLenient": {
+          "value": 0.3522012578616352,
+          "k": 56,
+          "n": 159
+        },
+        "falseAlarm": {
+          "value": 0.125,
+          "k": 9,
+          "n": 72
+        },
+        "consistency": {
+          "value": 0.6103896103896104,
+          "k": 47,
+          "n": 77
+        },
+        "missingIds": {
+          "value": 0.0032948929159802307,
+          "k": 4,
+          "n": 1214
+        },
+        "modelSupportedFailing": {
+          "value": 0.9454545454545454,
+          "k": 156,
+          "n": 165
+        },
+        "modelSupportedNotSupported": {
+          "value": 0.9818181818181818,
+          "k": 162,
+          "n": 165
+        },
+        "faultyAcceptedCaught": {
+          "value": 1,
+          "k": 103,
+          "n": 103
+        },
+        "failingByCheck": {
+          "C1": {
+            "value": 0.030303030303030304,
+            "k": 5,
+            "n": 165
+          },
+          "C2": {
+            "value": 0.7696969696969697,
+            "k": 127,
+            "n": 165
+          },
+          "C3": {
+            "value": 0.2545454545454545,
+            "k": 42,
+            "n": 165
+          },
+          "C4": {
+            "value": 0.10303030303030303,
+            "k": 17,
+            "n": 165
+          }
+        },
+        "byFault": {
+          "clean": {
+            "runs": 72,
+            "supported": {
+              "value": 0.8611111111111112,
+              "k": 62,
+              "n": 72
+            },
+            "strict": {
+              "value": 0.125,
+              "k": 9,
+              "n": 72
+            },
+            "lenient": {
+              "value": 0.1388888888888889,
+              "k": 10,
+              "n": 72
+            }
+          },
+          "F1": {
+            "runs": 42,
+            "supported": {
+              "value": 0.6190476190476191,
+              "k": 26,
+              "n": 42
+            },
+            "strict": {
+              "value": 0.3333333333333333,
+              "k": 14,
+              "n": 42
+            },
+            "lenient": {
+              "value": 0.38095238095238093,
+              "k": 16,
+              "n": 42
+            }
+          },
+          "F2": {
+            "runs": 72,
+            "supported": {
+              "value": 0.6944444444444444,
+              "k": 50,
+              "n": 72
+            },
+            "strict": {
+              "value": 0.2916666666666667,
+              "k": 21,
+              "n": 72
+            },
+            "lenient": {
+              "value": 0.3055555555555556,
+              "k": 22,
+              "n": 72
+            }
+          },
+          "F4": {
+            "runs": 45,
+            "supported": {
+              "value": 0.6,
+              "k": 27,
+              "n": 45
+            },
+            "strict": {
+              "value": 0.35555555555555557,
+              "k": 16,
+              "n": 45
+            },
+            "lenient": {
+              "value": 0.4,
+              "k": 18,
+              "n": 45
+            }
+          }
+        },
+        "notFound": {
+          "value": 0,
+          "k": 0,
+          "n": 231
+        },
+        "inputTokens": {
+          "value": 54010.969696969696,
+          "n": 231
+        },
+        "outputTokens": {
+          "value": 592.08658008658,
+          "n": 231
+        },
+        "seconds": {
+          "value": 15.822943722943725,
+          "n": 231
+        },
+        "steps": {
+          "value": 8.969696969696969,
+          "n": 231
+        }
+      },
+      "byPaper": {
+        "c2-routing": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.42105263157894735,
+            "k": 8,
+            "n": 19
+          },
+          "recall": {
+            "value": 0.8888888888888888,
+            "k": 8,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.7333333333333333,
+            "k": 11,
+            "n": 15
+          },
+          "detectionStrict": {
+            "value": 0.26666666666666666,
+            "k": 4,
+            "n": 15
+          },
+          "detectionLenient": {
+            "value": 0.26666666666666666,
+            "k": 4,
+            "n": 15
+          },
+          "falseAlarm": {
+            "value": 0.1111111111111111,
+            "k": 1,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.625,
+            "k": 5,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 145
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 19,
+            "n": 19
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 19,
+            "n": 19
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 11,
+            "n": 11
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 19
+            },
+            "C2": {
+              "value": 1,
+              "k": 19,
+              "n": 19
+            },
+            "C3": {
+              "value": 0.5263157894736842,
+              "k": 10,
+              "n": 19
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 19
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.7777777777777778,
+                "k": 7,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 3,
+              "supported": {
+                "value": 0.3333333333333333,
+                "k": 1,
+                "n": 3
+              },
+              "strict": {
+                "value": 0.6666666666666666,
+                "k": 2,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0.6666666666666666,
+                "k": 2,
+                "n": 3
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 87822.41666666667,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 644.375,
+            "n": 24
+          },
+          "seconds": {
+            "value": 28.708333333333332,
+            "n": 24
+          },
+          "steps": {
+            "value": 10.625,
+            "n": 24
+          }
+        },
+        "davinci-prover": {
+          "runs": 12,
+          "versions": 4,
+          "precision": {
+            "value": 0.5,
+            "k": 4,
+            "n": 8
+          },
+          "recall": {
+            "value": 0.6666666666666666,
+            "k": 4,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 0.6666666666666666,
+            "k": 4,
+            "n": 6
+          },
+          "detectionStrict": {
+            "value": 0.3333333333333333,
+            "k": 2,
+            "n": 6
+          },
+          "detectionLenient": {
+            "value": 0.3333333333333333,
+            "k": 2,
+            "n": 6
+          },
+          "falseAlarm": {
+            "value": 0.3333333333333333,
+            "k": 2,
+            "n": 6
+          },
+          "consistency": {
+            "value": 0,
+            "k": 0,
+            "n": 4
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 171
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 4,
+            "n": 4
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 8
+            },
+            "C2": {
+              "value": 1,
+              "k": 8,
+              "n": 8
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 8
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 8
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 12
+          },
+          "inputTokens": {
+            "value": 97867.75,
+            "n": 12
+          },
+          "outputTokens": {
+            "value": 884.9166666666666,
+            "n": 12
+          },
+          "seconds": {
+            "value": 38.42499999999999,
+            "n": 12
+          },
+          "steps": {
+            "value": 13.083333333333334,
+            "n": 12
+          }
+        },
+        "divr": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.3125,
+            "k": 5,
+            "n": 16
+          },
+          "recall": {
+            "value": 0.8333333333333334,
+            "k": 5,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 0.6111111111111112,
+            "k": 11,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0.1111111111111111,
+            "k": 2,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0.3888888888888889,
+            "k": 7,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 6
+          },
+          "consistency": {
+            "value": 0.5,
+            "k": 4,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 94
+          },
+          "modelSupportedFailing": {
+            "value": 0.75,
+            "k": 12,
+            "n": 16
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 16,
+            "n": 16
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 11,
+            "n": 11
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 16
+            },
+            "C2": {
+              "value": 0.75,
+              "k": 12,
+              "n": 16
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 16
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 16
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 0.8333333333333334,
+                "k": 5,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 63984.75,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 582.5833333333334,
+            "n": 24
+          },
+          "seconds": {
+            "value": 19.441666666666666,
+            "n": 24
+          },
+          "steps": {
+            "value": 10.791666666666666,
+            "n": 24
+          }
+        },
+        "fikiria": {
+          "runs": 30,
+          "versions": 10,
+          "precision": {
+            "value": 0.34615384615384615,
+            "k": 9,
+            "n": 26
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.8095238095238095,
+            "k": 17,
+            "n": 21
+          },
+          "detectionStrict": {
+            "value": 0.19047619047619047,
+            "k": 4,
+            "n": 21
+          },
+          "detectionLenient": {
+            "value": 0.19047619047619047,
+            "k": 4,
+            "n": 21
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.7,
+            "k": 7,
+            "n": 10
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 82
+          },
+          "modelSupportedFailing": {
+            "value": 0.8846153846153846,
+            "k": 23,
+            "n": 26
+          },
+          "modelSupportedNotSupported": {
+            "value": 0.8846153846153846,
+            "k": 23,
+            "n": 26
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 17,
+            "n": 17
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 26
+            },
+            "C2": {
+              "value": 0.6923076923076923,
+              "k": 18,
+              "n": 26
+            },
+            "C3": {
+              "value": 0.11538461538461539,
+              "k": 3,
+              "n": 26
+            },
+            "C4": {
+              "value": 0.38461538461538464,
+              "k": 10,
+              "n": 26
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0.8333333333333334,
+                "k": 5,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 30
+          },
+          "inputTokens": {
+            "value": 28372.9,
+            "n": 30
+          },
+          "outputTokens": {
+            "value": 393.96666666666664,
+            "n": 30
+          },
+          "seconds": {
+            "value": 8.376666666666667,
+            "n": 30
+          },
+          "steps": {
+            "value": 6.633333333333334,
+            "n": 30
+          }
+        },
+        "hipfuse": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.3333333333333333,
+            "k": 4,
+            "n": 12
+          },
+          "recall": {
+            "value": 0.6666666666666666,
+            "k": 4,
+            "n": 6
+          },
+          "falseAcceptance": {
+            "value": 0.4444444444444444,
+            "k": 8,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0.5555555555555556,
+            "k": 10,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0.5555555555555556,
+            "k": 10,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0.3333333333333333,
+            "k": 2,
+            "n": 6
+          },
+          "consistency": {
+            "value": 0.25,
+            "k": 2,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 119
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 12,
+            "n": 12
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 12,
+            "n": 12
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 8,
+            "n": 8
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.08333333333333333,
+              "k": 1,
+              "n": 12
+            },
+            "C2": {
+              "value": 0.5,
+              "k": 6,
+              "n": 12
+            },
+            "C3": {
+              "value": 0.4166666666666667,
+              "k": 5,
+              "n": 12
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 12
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 4,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 2,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 6,
+              "supported": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.8333333333333334,
+                "k": 5,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.8333333333333334,
+                "k": 5,
+                "n": 6
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.5,
+                "k": 3,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 56122.75,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 755.5833333333334,
+            "n": 24
+          },
+          "seconds": {
+            "value": 13.858333333333334,
+            "n": 24
+          },
+          "steps": {
+            "value": 9.166666666666666,
+            "n": 24
+          }
+        },
+        "isharabart": {
+          "runs": 27,
+          "versions": 9,
+          "precision": {
+            "value": 0.34615384615384615,
+            "k": 9,
+            "n": 26
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.9444444444444444,
+            "k": 17,
+            "n": 18
+          },
+          "detectionStrict": {
+            "value": 0.05555555555555555,
+            "k": 1,
+            "n": 18
+          },
+          "detectionLenient": {
+            "value": 0.05555555555555555,
+            "k": 1,
+            "n": 18
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.8888888888888888,
+            "k": 8,
+            "n": 9
+          },
+          "missingIds": {
+            "value": 0.005813953488372093,
+            "k": 1,
+            "n": 172
+          },
+          "modelSupportedFailing": {
+            "value": 0.9615384615384616,
+            "k": 25,
+            "n": 26
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 26,
+            "n": 26
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 17,
+            "n": 17
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.038461538461538464,
+              "k": 1,
+              "n": 26
+            },
+            "C2": {
+              "value": 0.6538461538461539,
+              "k": 17,
+              "n": 26
+            },
+            "C3": {
+              "value": 0.11538461538461539,
+              "k": 3,
+              "n": 26
+            },
+            "C4": {
+              "value": 0.2692307692307692,
+              "k": 7,
+              "n": 26
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 27
+          },
+          "inputTokens": {
+            "value": 58440.88888888889,
+            "n": 27
+          },
+          "outputTokens": {
+            "value": 571.4074074074074,
+            "n": 27
+          },
+          "seconds": {
+            "value": 13.814814814814811,
+            "n": 27
+          },
+          "steps": {
+            "value": 9.592592592592593,
+            "n": 27
+          }
+        },
+        "mape": {
+          "runs": 30,
+          "versions": 10,
+          "precision": {
+            "value": 0.28,
+            "k": 7,
+            "n": 25
+          },
+          "recall": {
+            "value": 0.7777777777777778,
+            "k": 7,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.8571428571428571,
+            "k": 18,
+            "n": 21
+          },
+          "detectionStrict": {
+            "value": 0.14285714285714285,
+            "k": 3,
+            "n": 21
+          },
+          "detectionLenient": {
+            "value": 0.14285714285714285,
+            "k": 3,
+            "n": 21
+          },
+          "falseAlarm": {
+            "value": 0.2222222222222222,
+            "k": 2,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.6,
+            "k": 6,
+            "n": 10
+          },
+          "missingIds": {
+            "value": 0.0051813471502590676,
+            "k": 1,
+            "n": 193
+          },
+          "modelSupportedFailing": {
+            "value": 0.96,
+            "k": 24,
+            "n": 25
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 25,
+            "n": 25
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 18,
+            "n": 18
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.04,
+              "k": 1,
+              "n": 25
+            },
+            "C2": {
+              "value": 0.92,
+              "k": 23,
+              "n": 25
+            },
+            "C3": {
+              "value": 0.12,
+              "k": 3,
+              "n": 25
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 25
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0.7777777777777778,
+                "k": 7,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 6,
+              "supported": {
+                "value": 0.8333333333333334,
+                "k": 5,
+                "n": 6
+              },
+              "strict": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0.16666666666666666,
+                "k": 1,
+                "n": 6
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.7777777777777778,
+                "k": 7,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 6,
+              "supported": {
+                "value": 1,
+                "k": 6,
+                "n": 6
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 6
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 30
+          },
+          "inputTokens": {
+            "value": 47969.46666666667,
+            "n": 30
+          },
+          "outputTokens": {
+            "value": 637.5666666666667,
+            "n": 30
+          },
+          "seconds": {
+            "value": 14.446666666666667,
+            "n": 30
+          },
+          "steps": {
+            "value": 7.633333333333334,
+            "n": 30
+          }
+        },
+        "olifant": {
+          "runs": 24,
+          "versions": 8,
+          "precision": {
+            "value": 0.35,
+            "k": 7,
+            "n": 20
+          },
+          "recall": {
+            "value": 0.7777777777777778,
+            "k": 7,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.8666666666666667,
+            "k": 13,
+            "n": 15
+          },
+          "detectionStrict": {
+            "value": 0.13333333333333333,
+            "k": 2,
+            "n": 15
+          },
+          "detectionLenient": {
+            "value": 0.13333333333333333,
+            "k": 2,
+            "n": 15
+          },
+          "falseAlarm": {
+            "value": 0.2222222222222222,
+            "k": 2,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.625,
+            "k": 5,
+            "n": 8
+          },
+          "missingIds": {
+            "value": 0.0196078431372549,
+            "k": 2,
+            "n": 102
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 20,
+            "n": 20
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 20,
+            "n": 20
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 13,
+            "n": 13
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0.1,
+              "k": 2,
+              "n": 20
+            },
+            "C2": {
+              "value": 0.55,
+              "k": 11,
+              "n": 20
+            },
+            "C3": {
+              "value": 0.9,
+              "k": 18,
+              "n": 20
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 20
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 0.7777777777777778,
+                "k": 7,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.2222222222222222,
+                "k": 2,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 3,
+              "supported": {
+                "value": 0.6666666666666666,
+                "k": 2,
+                "n": 3
+              },
+              "strict": {
+                "value": 0.3333333333333333,
+                "k": 1,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0.3333333333333333,
+                "k": 1,
+                "n": 3
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.8888888888888888,
+                "k": 8,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.1111111111111111,
+                "k": 1,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 3,
+              "supported": {
+                "value": 1,
+                "k": 3,
+                "n": 3
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 3
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 24
+          },
+          "inputTokens": {
+            "value": 49153.25,
+            "n": 24
+          },
+          "outputTokens": {
+            "value": 551.5416666666666,
+            "n": 24
+          },
+          "seconds": {
+            "value": 10.325000000000001,
+            "n": 24
+          },
+          "steps": {
+            "value": 7.5,
+            "n": 24
+          }
+        },
+        "peca": {
+          "runs": 36,
+          "versions": 12,
+          "precision": {
+            "value": 0.6923076923076923,
+            "k": 9,
+            "n": 13
+          },
+          "recall": {
+            "value": 1,
+            "k": 9,
+            "n": 9
+          },
+          "falseAcceptance": {
+            "value": 0.14814814814814814,
+            "k": 4,
+            "n": 27
+          },
+          "detectionStrict": {
+            "value": 0.8518518518518519,
+            "k": 23,
+            "n": 27
+          },
+          "detectionLenient": {
+            "value": 0.8518518518518519,
+            "k": 23,
+            "n": 27
+          },
+          "falseAlarm": {
+            "value": 0,
+            "k": 0,
+            "n": 9
+          },
+          "consistency": {
+            "value": 0.8333333333333334,
+            "k": 10,
+            "n": 12
+          },
+          "missingIds": {
+            "value": 0,
+            "k": 0,
+            "n": 136
+          },
+          "modelSupportedFailing": {
+            "value": 1,
+            "k": 13,
+            "n": 13
+          },
+          "modelSupportedNotSupported": {
+            "value": 1,
+            "k": 13,
+            "n": 13
+          },
+          "faultyAcceptedCaught": {
+            "value": 1,
+            "k": 4,
+            "n": 4
+          },
+          "failingByCheck": {
+            "C1": {
+              "value": 0,
+              "k": 0,
+              "n": 13
+            },
+            "C2": {
+              "value": 1,
+              "k": 13,
+              "n": 13
+            },
+            "C3": {
+              "value": 0,
+              "k": 0,
+              "n": 13
+            },
+            "C4": {
+              "value": 0,
+              "k": 0,
+              "n": 13
+            }
+          },
+          "byFault": {
+            "clean": {
+              "runs": 9,
+              "supported": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "strict": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              }
+            },
+            "F1": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            },
+            "F2": {
+              "runs": 9,
+              "supported": {
+                "value": 0.4444444444444444,
+                "k": 4,
+                "n": 9
+              },
+              "strict": {
+                "value": 0.5555555555555556,
+                "k": 5,
+                "n": 9
+              },
+              "lenient": {
+                "value": 0.5555555555555556,
+                "k": 5,
+                "n": 9
+              }
+            },
+            "F4": {
+              "runs": 9,
+              "supported": {
+                "value": 0,
+                "k": 0,
+                "n": 9
+              },
+              "strict": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              },
+              "lenient": {
+                "value": 1,
+                "k": 9,
+                "n": 9
+              }
+            }
+          },
+          "notFound": {
+            "value": 0,
+            "k": 0,
+            "n": 36
+          },
+          "inputTokens": {
+            "value": 35109.72222222222,
+            "n": 36
+          },
+          "outputTokens": {
+            "value": 526.6944444444445,
+            "n": 36
+          },
+          "seconds": {
+            "value": 11.119444444444445,
+            "n": 36
+          },
+          "steps": {
+            "value": 8.722222222222221,
+            "n": 36
+          }
+        }
+      }
+    }
+  }
+}
