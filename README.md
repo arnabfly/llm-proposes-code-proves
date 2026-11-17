@@ -10,17 +10,17 @@ found. The result is a claim map for the authors, written before submission.
 The tool is built on [Tygig](#tygig), an open-source TypeScript agent harness. For now the review tools are built into
 the `tygig` command; later they will become a Tygig plugin.
 
-Results on 24 claims from 9 recent arXiv papers, with planted errors (gpt-4.1-mini, 3 runs per version):
+Results on 24 claims from 9 recent arXiv papers, with introduced errors (gpt-4.1-mini, 3 runs per version):
 
-| Measure | Model alone | Strict prompt | LLM + code checks |
+| Measure | LLM alone | Strict instructions | LLM with checks |
 |---|---|---|---|
-| False acceptance (planted errors labelled Supported; lower is better) | 99.4% (158/159) | 64.8% (103/159) | **6.3% (10/159)** |
+| False acceptance (introduced errors labelled Supported; lower is better) | 99.4% (158/159) | 64.8% (103/159) | **6.3% (10/159)** |
 | Recall (correct claims labelled Supported; higher is better) | 100.0% (72/72) | 86.1% (62/72) | 15.3% (11/72) |
 
 ![Figure 2: share of runs labelled Supported, by version type](hackathon/figs/fig2-by-fault.png)
 
 **Figure 2.** Share of runs labelled Supported, by version type. On clean versions, higher is better; on versions
-with a planted error, lower is better.
+with an introduced error, lower is better.
 
 ### Quick start
 
@@ -51,7 +51,7 @@ When the review is done, `claim-map.md` (for people) and `claim-map.json` (for p
 ### Rebuilding the benchmark
 
 The benchmark program is `tygig-bench`. How to install it, run it and rebuild the benchmark from the arXiv IDs is in
-[`evals/README.md`](evals/README.md). Our targets, planted versions (as a list of changes), metrics and summary are in
+[`evals/README.md`](evals/README.md). Our targets, the list of introduced changes, metrics and summary are in
 [`hackathon/results/`](hackathon/results/).
 
 ### Limitations
@@ -62,10 +62,10 @@ The benchmark program is `tygig-bench`. How to install it, run it and rebuild th
   Unverified and recall is low (15.3%).
 - **Small scope.** One model, 9 machine learning papers, 24 claims, LaTeX only, no figures, and no errors that reverse
   a comparison.
-- **Artificial errors.** The errors were planted by code and may differ from real ones. The supporting cells of the
+- **Artificial errors.** The errors were introduced by code and may differ from real ones. The supporting cells of the
   24 claims were checked by code, not confirmed by a person.
 
-**Report:** [`hackathon/REPORT.md`](hackathon/REPORT.md)
+**Report:** [`hackathon/claim-evidence-checks-report.pdf`](hackathon/claim-evidence-checks-report.pdf)
 
 **Video:** (link to be added)
 
