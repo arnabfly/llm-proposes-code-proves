@@ -64,10 +64,15 @@ tygig login
 Choose **API key**, then **OpenAI**, paste your key, and pick **gpt-4.1-mini** (the model we used). Other providers
 work too. The key is stored in your home folder (`~/.tygig`), never in the project.
 
-**EU-hosted models (Berget AI).** Choose **API key**, then **Other (OpenAI-compatible)**, enter the address
-`https://api.berget.ai/v1`, paste your Berget key, and pick a model with tool calling, for example
-`mistralai/Mistral-Small-3.2-24B-Instruct-2506`. For the benchmark, give the same name with `--model`. We have not
-tested Berget; our numbers come from gpt-4.1-mini.
+**Using Berget AI (EU-hosted models).** Run `tygig login` and:
+
+1. Choose **API key**, then **Other (OpenAI-compatible)**.
+2. Address: `https://api.berget.ai/v1`
+3. Paste your Berget API key.
+4. Pick a model with tool calling, for example `mistralai/Mistral-Small-3.2-24B-Instruct-2506`.
+
+For the benchmark, give the same model name with `--model`, for example
+`tygig-bench run --mode on --model mistralai/Mistral-Small-3.2-24B-Instruct-2506`.
 
 Then:
 
