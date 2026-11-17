@@ -24,35 +24,80 @@ with an introduced error, lower is better.
 
 ### Quick start
 
-You need Node.js 22 or newer and a model provider (for example an OpenAI API key).
+You need [Node.js](https://nodejs.org) 22 or newer and [Git](https://git-scm.com). The commands below are for Windows
+PowerShell; on macOS and Linux, write `/` instead of `\` in paths.
+
+**Install** (once):
 
 ```powershell
 git clone https://github.com/arnabfly/llm-proposes-code-proves.git
 cd llm-proposes-code-proves
 npm install
-npm test             # optional: 165 tests, no model needed
-cd packages\cli
-npm link             # makes the tygig command available in any folder
-tygig login          # choose a provider and model
+npm link             # installs two commands: tygig (the review tool) and tygig-bench (the benchmark)
+npm test             # optional: 170 tests, no model or key needed
+cd ..
 ```
 
-Put the paper's LaTeX source in a folder, for example `my-work\paper`. Then:
+Then choose one of the three paths below.
+
+#### A. Check our numbers (free: no API key, no model calls)
 
 ```powershell
-cd my-work
+mkdir check-results
+cd check-results
+tygig-bench setup --from ..\llm-proposes-code-proves\hackathon\results
+tygig-bench plant
+tygig-bench metrics
+```
+
+- `setup` downloads the 9 papers' LaTeX source from arXiv and checks that they are exactly the files we used (SHA-256).
+- `plant` makes the 77 versions again: the original claims and the versions with an introduced error.
+- `metrics` recomputes every number from our 693 recorded runs and writes `benchmark\results\summary.md`. It should
+  match [`hackathon/results/summary.md`](hackathon/results/summary.md), apart from the date.
+
+#### B. Review a paper yourself (needs an API key)
+
+```powershell
+tygig login
+```
+
+Choose **API key**, then **OpenAI**, paste your key, and pick **gpt-4.1-mini** (the model we used). Other providers
+work too. The key is stored in your home folder (`~/.tygig`), never in the project. Then:
+
+```powershell
+mkdir my-review
+cd my-review
+tygig-bench get-paper --arxiv 2611.16104v1
 tygig
 ```
 
-and type: `Review the paper in the folder paper.`
+`get-paper` downloads the LaTeX source of any arXiv paper (here Fikiria) into `my-review\paper`. You can also copy your
+own paper's LaTeX folder there. In the chat, type:
 
-When the review is done, `claim-map.md` (for people) and `claim-map.json` (for programs) appear in the paper folder:
-`my-work\paper\claim-map.md`.
+```
+Review the paper in the folder paper.
+```
 
-### Rebuilding the benchmark
+When it is done, `paper\claim-map.md` lists each claim the tool found, with its label, its evidence and the result of
+each check.
+Type `/quit` to leave.
 
-The benchmark program is `tygig-bench`. How to install it, run it and rebuild the benchmark from the arXiv IDs is in
-[`evals/README.md`](evals/README.md). Our targets, the list of introduced changes, metrics and summary are in
-[`hackathon/results/`](hackathon/results/).
+#### C. Run the whole benchmark again (needs an API key)
+
+```powershell
+mkdir rerun
+cd rerun
+tygig-bench setup --from ..\llm-proposes-code-proves\hackathon\results --no-runs
+tygig-bench plant
+tygig-bench run --mode on --model gpt-4.1-mini --concurrency 2
+tygig-bench run --mode off --model gpt-4.1-mini --concurrency 2
+tygig-bench run --mode strict --model gpt-4.1-mini --concurrency 2
+tygig-bench metrics
+```
+
+This makes 693 runs and sends about 43 million input tokens in total. A run that stops can be started again: finished
+runs are kept. The model does not give the same answer every time, so the numbers will differ slightly from ours.
+More options are in [`evals/README.md`](evals/README.md).
 
 ### Limitations
 
@@ -74,7 +119,8 @@ rebuilt from their arXiv IDs. Session logs are not included either, because they
 
 ---
 
-The rest of this file is the README of Tygig, the harness this tool runs on.
+The rest of this file is the README of Tygig, the harness this tool runs on. If you followed the Quick start above,
+`tygig` is already installed: skip the install steps below.
 
 # Tygig
 

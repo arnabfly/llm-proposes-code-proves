@@ -8,6 +8,8 @@
 //   tygig-bench run --mode on|off|strict [--runs 3] [--model gpt-4.1] [--concurrency 4] [--only <versionId>]
 //   tygig-bench metrics
 //   tygig-bench set-paper --id <paper ID> [--paper <folder>] [--dev true|false]
+//   tygig-bench get-paper --arxiv <arXiv ID> [--to <folder>]
+//   tygig-bench setup --from <folder> [--no-runs]
 //
 // Installed with `npm link` in the program's folder, like `tygig`.
 
@@ -22,6 +24,8 @@ const COMMANDS = {
   run: "run.ts",
   metrics: "metrics.ts",
   "set-paper": "set-paper.ts",
+  "get-paper": "get-paper.ts",
+  setup: "setup.ts",
 };
 
 const [command, ...rest] = process.argv.slice(2);
@@ -36,6 +40,8 @@ if (!script) {
     "  tygig-bench run --mode on|off|strict [--runs 3] [--model gpt-4.1] [--concurrency 1] [--tpm 400000] [--only <versionId>]",
     "  tygig-bench metrics",
     "  tygig-bench set-paper --id <paper ID> [--paper <folder>] [--dev true|false]",
+    "  tygig-bench get-paper --arxiv <arXiv ID> [--to <folder>]      download a paper's LaTeX source",
+    "  tygig-bench setup --from <folder> [--no-runs]                 set up from published results",
   ].join("\n"));
   process.exit(command ? 1 : 0);
 }

@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "bin": {
+    "tygig": "packages/cli/bin/tygig.js",
     "tygig-bench": "evals/bin/tygig-bench.mjs"
   },
   "engines": {

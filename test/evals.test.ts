@@ -602,3 +602,127 @@ describe("strict mode: the fixed prompt, checks off, hash recorded", () => {
     assert.match(md, /\| F1 \| .* \| 50\.0% \(1\/2\) \| 50\.0% \(1\/2\) \| 50\.0% \(1\/2\) \|$/m);
   });
 });
+
+// ---------------------------------------------------------------------------------------------------
+// Getting papers from arXiv, and setting up from published results (no network: a local server).
+
+import { gzipSync } from "node:zlib";
+import { createServer } from "node:http";
+import { spawn } from "node:child_process";
+import { existsSync, mkdirSync, readdirSync, readFileSync as readSync, writeFileSync } from "node:fs";
+import { downloadArxivSource, isTar, unpackSource, untar } from "../evals/lib/arxiv.ts";
+
+/** A small ustar archive: folders end in "/". */
+function makeTar(entries: { name: string; data?: string; type?: string }[]): Buffer {
+  const blocks: Buffer[] = [];
+  for (const e of entries) {
+    const h = Buffer.alloc(512);
+    const body = Buffer.from(e.data ?? "");
+    h.write(e.name, 0, 100, "utf8");
+    h.write("0000644\0", 100); h.write("0000000\0", 108); h.write("0000000\0", 116);
+    h.write(body.length.toString(8).padStart(11, "0") + "\0", 124);
+    h.write("00000000000\0", 136);
+    h.write(e.type ?? (e.name.endsWith("/") ? "5" : "0"), 156);
+    h.write("ustar\0", 257); h.write("00", 263);
+    h.fill(32, 148, 156);
+    let sum = 0; for (const x of h) sum += x;
+    h.write(sum.toString(8).padStart(6, "0") + "\0 ", 148);
+    blocks.push(h, body, Buffer.alloc((512 - (body.length % 512)) % 512));
+  }
+  blocks.push(Buffer.alloc(1024));
+  return Buffer.concat(blocks);
+}
+
+const SOURCE = [
+  { name: "main.tex", data: "\\documentclass{article}\n\\input{sections/results}\n" },
+  { name: "sections/" },
+  { name: "sections/results.tex", data: "It reaches 85.3\\%.\n" },
+];
+
+describe("arXiv sources: download and unpack", () => {
+  test("a gzipped tar archive is unpacked with its folders; the hash equals that of the same files", async () => {
+    const dir = await mkdtemp(path.join(os.tmpdir(), "tygig-arxiv-"));
+    const files = await unpackSource(gzipSync(makeTar(SOURCE)), dir, "2611.00001");
+    assert.deepEqual(files.sort(), ["main.tex", "sections/results.tex"]);
+    assert.equal(readSync(path.join(dir, "sections", "results.tex"), "utf8"), "It reaches 85.3\\%.\n");
+    const same = await mkdtemp(path.join(os.tmpdir(), "tygig-arxiv-"));
+    mkdirSync(path.join(same, "sections"));
+    writeFileSync(path.join(same, "main.tex"), SOURCE[0]!.data!);
+    writeFileSync(path.join(same, "sections", "results.tex"), SOURCE[2]!.data!);
+    assert.equal(await hashSource(dir), await hashSource(same));
+  });
+
+  test("a single gzipped .tex file is saved under the paper's ID; a PDF is refused", async () => {
+    const dir = await mkdtemp(path.join(os.tmpdir(), "tygig-arxiv-"));
+    assert.deepEqual(await unpackSource(gzipSync(Buffer.from("\\documentclass{article}\n")), dir, "2611.00002"), ["2611.00002.tex"]);
+    await assert.rejects(unpackSource(Buffer.from("%PDF-1.5 ..."), path.join(dir, "x"), "2611.00003"), /PDF, not LaTeX/);
+  });
+
+  test("names that would leave the folder are skipped; isTar tells a tar from text", async () => {
+    const dir = await mkdtemp(path.join(os.tmpdir(), "tygig-arxiv-"));
+    const files = await untar(makeTar([{ name: "../evil.tex", data: "x" }, { name: "ok.tex", data: "y" }]), dir);
+    assert.deepEqual(files, ["ok.tex"]);
+    assert.equal(existsSync(path.join(dir, "..", "evil.tex")), false);
+    assert.equal(isTar(makeTar(SOURCE)), true);
+    assert.equal(isTar(Buffer.alloc(600, 65)), false);
+  });
+
+  test("download: the versioned ID is asked for; a bad ID or a non-empty folder is refused", async () => {
+    const asked: string[] = [];
+    const fake = (async (url: string) => { asked.push(url); return new Response(gzipSync(makeTar(SOURCE))); }) as typeof fetch;
+    const dir = path.join(await mkdtemp(path.join(os.tmpdir(), "tygig-arxiv-")), "paper");
+    await downloadArxivSource("2611.16104v1", dir, { base: "http://example.test", fetchImpl: fake });
+    assert.deepEqual(asked, ["http://example.test/src/2611.16104v1"]);
+    assert.equal(existsSync(path.join(dir, "main.tex")), true);
+    await assert.rejects(downloadArxivSource("2611.16104v1", dir, { fetchImpl: fake }), /not empty/);
+    await assert.rejects(downloadArxivSource("../etc", path.join(dir, "y"), { fetchImpl: fake }), /not an arXiv ID/);
+  });
+
+  test("setup: downloads the papers, checks the hash, writes papers.json and targets.json, copies the runs", async () => {
+    const tar = gzipSync(makeTar(SOURCE));
+    const server = createServer((req, res) => { if (req.url === "/src/2611.00001v1") res.end(tar); else { res.statusCode = 404; res.end(); } });
+    await new Promise<void>((r) => server.listen(0, "127.0.0.1", r));
+    const port = (server.address() as { port: number }).port;
+    try {
+      const expected = await mkdtemp(path.join(os.tmpdir(), "tygig-setup-"));
+      await unpackSource(tar, expected, "x");
+      const from = await mkdtemp(path.join(os.tmpdir(), "tygig-setup-"));
+      writeFileSync(path.join(from, "papers.json"), JSON.stringify({
+        demo: { id: "demo", src: "papers/demo", sha256: await hashSource(expected), arxiv: "2611.00001v1", registered: "x" },
+        devp: { id: "devp", src: "papers/devp", sha256: "0", arxiv: "2611.00009v1", dev: true, registered: "x" },
+      }));
+      writeFileSync(path.join(from, "targets.json"), JSON.stringify([{ paperId: "demo", targetId: "S2", claimText: "c", evidenceIds: [], comparisons: [], confirmed: true }]));
+      writeFileSync(path.join(from, "runs.json"), JSON.stringify([
+        { mode: "on", versionId: "demo__S2__clean", run: 1, label: "supported" },
+        { mode: "on", versionId: "../escape", run: 1 },
+      ]));
+      const cwd = await mkdtemp(path.join(os.tmpdir(), "tygig-setup-"));
+      const script = fileURLToPath(new URL("../evals/scripts/setup.ts", import.meta.url));
+      const env: NodeJS.ProcessEnv = { ...process.env, TYGIG_ARXIV_BASE: `http://127.0.0.1:${port}` };
+      delete env.TYGIG_BENCH_DIR;
+      const runSetup = (...extra: string[]) => new Promise<{ status: number | null; out: string }>((resolve) => {
+        const child = spawn(process.execPath, ["--import", import.meta.resolve("tsx"), script, "--from", from, ...extra], { cwd, env });
+        let out = "";
+        child.stdout.on("data", (d) => (out += d)); child.stderr.on("data", (d) => (out += d));
+        child.on("close", (status) => resolve({ status, out }));
+      });
+      const r = await runSetup();
+      assert.equal(r.status, 0, r.out);
+      assert.match(r.out, /ok\s+demo: same files as ours/);
+      const papers = JSON.parse(readSync(path.join(cwd, "benchmark", "papers.json"), "utf8"));
+      assert.equal(papers.demo.src, path.join(cwd, "papers", "demo"));
+      assert.equal(papers.devp.dev, true);                       // the dev paper keeps its mark, not downloaded
+      assert.equal(existsSync(path.join(cwd, "papers", "devp")), false);
+      assert.deepEqual(readdirSync(path.join(cwd, "benchmark", "results", "on", "demo__S2__clean")), ["run1.json"]);
+      assert.equal(JSON.parse(readSync(path.join(cwd, "benchmark", "results", "on", "demo__S2__clean", "run1.json"), "utf8")).label, "supported");
+      assert.match(r.out, /Skipped a run/);                       // a bad version name cannot write outside the folder
+      // A changed paper is reported, and setup fails.
+      writeFileSync(path.join(cwd, "papers", "demo", "main.tex"), "changed");
+      const r2 = await runSetup("--no-runs");
+      assert.equal(r2.status, 1);
+      assert.match(r2.out, /DIFFERENT demo/);
+    } finally {
+      server.close();
+    }
+  });
+});

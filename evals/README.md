@@ -26,6 +26,8 @@ Then, in your work folder:
 | 5. Run | `tygig-bench run --mode on --runs 3 --model gpt-4.1 --concurrency 4`, then `--mode off` | `results\<mode>\<versionId>\run<k>.json` |
 | 6. Metrics | `tygig-bench metrics` | `results\metrics.json`, `results\summary.md` |
 
+To check or repeat our benchmark instead of making a new one, see "Rebuilding the benchmark on another computer" below.
+
 - `--paper` is the folder with the paper's LaTeX source. Its name (here `paper1`) is the paper's ID, unless `--id` is given.
 - `papers.json` records each paper's folder, arXiv ID and a SHA-256 hash of its files. `targets` and `plant`
   stop with a clear message if the paper changed after its full review. The `claim-map` files that `tygig`
@@ -60,10 +62,21 @@ listed with `valid: false` and is not run.
 
 ## Rebuilding the benchmark on another computer
 
-Keep `papers.json`, `targets.json`, `versions\manifest.json` and `results\`. To rebuild:
+The published benchmark (`hackathon/results` in the repository) holds `papers.json`, `targets.json`, the manifest,
+the metrics and the recorded runs (`runs.json`: every run's result, without the session logs, which contain
+paper text). In an empty work folder:
 
-1. Download each paper's TeX source by its versioned arXiv ID (`https://arxiv.org/src/<id>`), and unpack it.
-2. `tygig-bench set-paper --id <paper ID> --paper <folder>` for each paper. It checks the hash, so a
-   different download is refused. No new full review is needed: the saved `targets.json` fixes the claims
-   (a new full review would find different ones).
-3. `tygig-bench plant`, then `run` and `metrics`.
+```powershell
+tygig-bench setup --from <repository>\hackathon\results     # add --no-runs to run everything again yourself
+tygig-bench plant
+tygig-bench metrics                                          # or first: tygig-bench run --mode on|off|strict ...
+```
+
+`setup` downloads each paper's TeX source from arXiv by its versioned ID (`https://arxiv.org/src/<id>`) into
+`papers\<name>`, unpacks it (in Node.js; no other program needed) and checks the hash against `papers.json`: a
+different download is refused. It writes `benchmark\papers.json` and `benchmark\targets.json` and copies the recorded
+runs into `benchmark\results`. No new full review is needed: the saved `targets.json` fixes the claims (a new full
+review would find different ones). With the recorded runs, `metrics` recomputes the published numbers without any
+model call.
+
+`tygig-bench get-paper --arxiv <id> [--to <folder>]` downloads one paper the same way (default folder `paper`).
